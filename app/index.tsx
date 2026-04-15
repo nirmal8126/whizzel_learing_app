@@ -9,7 +9,7 @@ import { useChildren } from '@/hooks/use-children';
 /**
  * Auth gate. Decides where to send the user on launch:
  *   - Not signed in → /auth
- *   - Signed in, no children → /add-child
+ *   - Signed in, no children → /children (empty profiles page; user adds from there)
  *   - Signed in, one child → /subjects (auto-select)
  *   - Signed in, multiple children, no selection → /select-child
  *   - Signed in, has selection → /subjects
@@ -35,7 +35,7 @@ export default function IndexGate() {
     if (kidsLoading) return;
 
     if (children.length === 0) {
-      router.replace('/add-child');
+      router.replace('/children');
       return;
     }
 

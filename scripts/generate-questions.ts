@@ -37,8 +37,8 @@ function parseArgs(): Args {
   const subject = out.subject;
   const difficulty = out.difficulty;
   const count = Number(out.count ?? 20);
-  if (!['math', 'science', 'language', 'gk'].includes(subject)) {
-    throw new Error('--subject must be one of: math, science, language, gk');
+  if (!['math', 'science', 'language', 'gk', 'puzzles'].includes(subject)) {
+    throw new Error('--subject must be one of: math, science, language, gk, puzzles');
   }
   if (!['easy', 'medium', 'hard'].includes(difficulty)) {
     throw new Error('--difficulty must be one of: easy, medium, hard');
@@ -52,6 +52,7 @@ const SUBJECT_DESC: Record<string, string> = {
   science: 'natural sciences (biology, physics, chemistry, astronomy, earth science)',
   language: 'English language and vocabulary (grammar, spelling, synonyms, literary devices)',
   gk: 'general knowledge (geography, history, world cultures, arts, sports)',
+  puzzles: 'brain puzzles and lateral thinking (riddles, pattern recognition, sequence puzzles, odd-one-out, simple logic deductions, visual/spatial puzzles described in words)',
 };
 
 const DIFFICULTY_PROFILE: Record<string, { age: string; style: string }> = {

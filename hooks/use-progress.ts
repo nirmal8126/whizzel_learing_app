@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { ProgressStats } from '@/data/badges';
 import type { SubjectKey } from '@/data/subjects';
@@ -26,6 +26,8 @@ function localKey(childId: string | null) {
 export function useProgress(childId?: string | null) {
   const [stats, setStats] = useState<ProgressStats>(DEFAULT);
   const [ready, setReady] = useState(false);
+  const statsRef = useRef(stats);
+  statsRef.current = stats;
 
   // Load: try cloud first (if child selected), fall back to local cache
   useEffect(() => {
@@ -66,19 +68,20 @@ export function useProgress(childId?: string | null) {
     async (opts: { subject: SubjectKey; score: number; maxPossible: number }) => {
       // Optimistic local update — Supabase progress is updated by a DB trigger
       // when quiz_sessions is inserted (see migration).
+      const cur = statsRef.current;
       const next: ProgressStats = {
-        totalStars: stats.totalStars + opts.score,
-        quizzesCompleted: stats.quizzesCompleted + 1,
-        subjectsTried: stats.subjectsTried.includes(opts.subject)
-          ? stats.subjectsTried
-          : [...stats.subjectsTried, opts.subject],
-        hasPerfect: stats.hasPerfect || opts.score === opts.maxPossible,
+        totalStars: cur.totalStars + opts.score,
+        quizzesCompleted: cur.quizzesCompleted + 1,
+        subjectsTried: cur.subjectsTried.includes(opts.subject)
+          ? cur.subjectsTried
+          : [...cur.subjectsTried, opts.subject],
+        hasPerfect: cur.hasPerfect || opts.score === opts.maxPossible,
       };
       setStats(next);
       await AsyncStorage.setItem(localKey(childId ?? null), JSON.stringify(next));
       return next;
     },
-    [stats, childId]
+    [childId]
   );
 
   return { stats, ready, recordQuiz };

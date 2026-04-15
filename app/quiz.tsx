@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -26,6 +26,7 @@ export default function QuizScreen() {
   const { session } = useAuth();
   const { selected: selectedChild } = useChildren(session?.user.id);
   const [burstSeed, setBurstSeed] = useState(0);
+  const submittedRef = useRef(false);
 
   useEffect(() => {
     preloadSounds();
@@ -33,7 +34,8 @@ export default function QuizScreen() {
 
   // When finished: persist locally, push to Supabase, then navigate
   useEffect(() => {
-    if (state.status !== 'finished') return;
+    if (state.status !== 'finished' || submittedRef.current) return;
+    submittedRef.current = true;
     (async () => {
       await recordQuiz({
         subject,

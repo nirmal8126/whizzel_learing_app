@@ -60,6 +60,12 @@ export default function MenuScreen() {
       subtitle: 'Progress, accuracy, time spent',
       onPress: () => router.push('/dashboard'),
     },
+    {
+      icon: '🏆',
+      title: 'Leaderboard',
+      subtitle: children.length > 1 ? 'See sibling rankings' : 'Add siblings to compete',
+      onPress: () => router.push('/leaderboard'),
+    },
   ];
 
   const accountSection: Item[] = [

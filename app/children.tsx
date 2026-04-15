@@ -36,9 +36,17 @@ export default function ChildrenScreen() {
     <LinearGradient colors={BgGradient.warm} locations={BgGradient.warmStops} style={styles.container}>
       <ScrollView contentContainerStyle={styles.scroll}>
         <View style={styles.header}>
-          <Pressable onPress={() => router.back()} style={[styles.backBtn, Shadows.sm]} hitSlop={10}>
-            <Text style={{ fontSize: 18, color: Colors.textPrimary, fontFamily: Fonts.bold }}>←</Text>
-          </Pressable>
+          {children.length > 0 ? (
+            <Pressable
+              onPress={() => router.replace('/subjects')}
+              style={[styles.backBtn, Shadows.sm]}
+              hitSlop={10}
+            >
+              <Text style={{ fontSize: 18, color: Colors.textPrimary, fontFamily: Fonts.bold }}>←</Text>
+            </Pressable>
+          ) : (
+            <View style={{ width: 40 }} />
+          )}
           <Text variant="h3">Profiles</Text>
           <View style={{ width: 40 }} />
         </View>

@@ -9,7 +9,7 @@
 
 import { spawnSync } from 'node:child_process';
 
-const SUBJECTS = ['math', 'science', 'language', 'gk'];
+const SUBJECTS = ['math', 'science', 'language', 'gk', 'puzzles'];
 const DIFFICULTIES = ['easy', 'medium', 'hard'];
 
 const countArg = process.argv.find((a) => a.startsWith('--count='));

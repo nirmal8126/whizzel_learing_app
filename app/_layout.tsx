@@ -38,6 +38,7 @@ export default function RootLayout() {
         <Stack.Screen name="menu" options={{ animation: 'slide_from_right' }} />
         <Stack.Screen name="children" options={{ animation: 'slide_from_right' }} />
         <Stack.Screen name="dashboard" options={{ animation: 'slide_from_right' }} />
+        <Stack.Screen name="leaderboard" options={{ animation: 'slide_from_right' }} />
       </Stack>
       <StatusBar style="dark" />
     </GestureHandlerRootView>

@@ -1,5 +1,5 @@
 export type Difficulty = 'easy' | 'medium' | 'hard';
-export type SubjectKey = 'math' | 'science' | 'language' | 'gk';
+export type SubjectKey = 'math' | 'science' | 'language' | 'gk' | 'puzzles';
 
 export type Subject = {
   key: SubjectKey;
@@ -42,6 +42,14 @@ export const SUBJECTS: Record<SubjectKey, Subject> = {
     color: '#BA7517',
     bg: '#FAEEDA',
     gradient: ['#FAEEDA', '#FFFFFF'],
+  },
+  puzzles: {
+    key: 'puzzles',
+    name: 'Puzzle Pop',
+    icon: '🧩',
+    color: '#8B5CF6',
+    bg: '#F3E8FF',
+    gradient: ['#F3E8FF', '#FFFFFF'],
   },
 };
 

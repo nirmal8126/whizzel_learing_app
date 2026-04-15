@@ -74,12 +74,13 @@ export function useDashboard(childId: string | null | undefined): DashboardData 
     const sessionIds = allSessionRows.map((s) => s.id);
     const subjectMap = new Map<string, SubjectKey>(allSessionRows.map((s) => [s.id, s.subject]));
 
-    const subjects: SubjectKey[] = ['math', 'science', 'language', 'gk'];
+    const subjects: SubjectKey[] = ['math', 'science', 'language', 'gk', 'puzzles'];
     const acc: Record<SubjectKey, { quizzes: number; correct: number; answered: number }> = {
       math:     { quizzes: 0, correct: 0, answered: 0 },
       science:  { quizzes: 0, correct: 0, answered: 0 },
       language: { quizzes: 0, correct: 0, answered: 0 },
       gk:       { quizzes: 0, correct: 0, answered: 0 },
+      puzzles:  { quizzes: 0, correct: 0, answered: 0 },
     };
 
     for (const s of allSessionRows) acc[s.subject].quizzes += 1;
