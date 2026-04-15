@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "animals",
+    "q_text": "Which animal has a long trunk and big ears?",
+    "options": [
+      "Monkey",
+      "Giraffe",
+      "Elephant",
+      "Zebra"
+    ],
+    "answer_index": 2,
+    "explanation": "Elephants are known for their very long trunks and large ears.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "colors",
+    "q_text": "What two colors make green when you mix them?",
+    "options": [
+      "Red and yellow",
+      "Blue and yellow",
+      "Blue and red",
+      "Yellow and white"
+    ],
+    "answer_index": 1,
+    "explanation": "Mixing blue and yellow paint together creates the color green.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "history",
+    "q_text": "What big, scaly animals lived a very long time ago?",
+    "options": [
+      "Dogs",
+      "Birds",
+      "Dinosaurs",
+      "Fish"
+    ],
+    "answer_index": 2,
+    "explanation": "Dinosaurs were ancient reptiles that lived on Earth millions of years ago.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "sports",
+    "q_text": "Which of these do you hit with a bat in a game?",
+    "options": [
+      "A swimming pool",
+      "A soccer ball",
+      "A baseball",
+      "A jump rope"
+    ],
+    "answer_index": 2,
+    "explanation": "You use a bat to hit a baseball in the game of baseball.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "world_cultures",
+    "q_text": "What food from Japan is often made with rice and fish?",
+    "options": [
+      "Pizza",
+      "Taco",
+      "Sushi",
+      "Spaghetti"
+    ],
+    "answer_index": 2,
+    "explanation": "Sushi is a popular Japanese dish made with vinegared rice, often with seafood.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "geography",
+    "q_text": "What is a very tall, natural hill with a pointy top called?",
+    "options": [
+      "River",
+      "Ocean",
+      "Desert",
+      "Mountain"
+    ],
+    "answer_index": 3,
+    "explanation": "A mountain is a large natural elevation of the Earth's surface.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "music",
+    "q_text": "Which instrument do you play by pressing black and white keys?",
+    "options": [
+      "Guitar",
+      "Drums",
+      "Flute",
+      "Piano"
+    ],
+    "answer_index": 3,
+    "explanation": "A piano is played by pressing its keys, which make hammers strike strings.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "history",
+    "q_text": "Long ago, what did people use to travel before cars were invented?",
+    "options": [
+      "Airplanes",
+      "Spaceships",
+      "Horses and carriages",
+      "Submarines"
+    ],
+    "answer_index": 2,
+    "explanation": "Before cars, people often traveled using horses and horse-drawn carriages.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "sports",
+    "q_text": "What do runners do in a race?",
+    "options": [
+      "Swim",
+      "Fly",
+      "Run",
+      "Sleep"
+    ],
+    "answer_index": 2,
+    "explanation": "Runners use their legs to move fast in a race.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "world_cultures",
+    "q_text": "Which of these is a traditional dress from Japan?",
+    "options": [
+      "Pants",
+      "Kimono",
+      "T-shirt",
+      "Jacket"
+    ],
+    "answer_index": 1,
+    "explanation": "A kimono is a traditional Japanese garment worn by men, women, and children.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "weather",
+    "q_text": "What do you see in the sky after it rains and the sun shines?",
+    "options": [
+      "Snowflake",
+      "Thunder",
+      "Cloud",
+      "Rainbow"
+    ],
+    "answer_index": 3,
+    "explanation": "A rainbow often appears when sunlight shines through raindrops after a shower.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "shapes",
+    "q_text": "Which shape has three straight sides?",
+    "options": [
+      "Circle",
+      "Square",
+      "Triangle",
+      "Star"
+    ],
+    "answer_index": 2,
+    "explanation": "A triangle is a shape with three straight sides and three angles.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "history",
+    "q_text": "Which invention helps us see in the dark inside our homes?",
+    "options": [
+      "Wheel",
+      "Light bulb",
+      "Telephone",
+      "Book"
+    ],
+    "answer_index": 1,
+    "explanation": "The light bulb gives us light so we can see when it is dark.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "sports",
+    "q_text": "Which sport involves kicking a ball into a goal?",
+    "options": [
+      "Basketball",
+      "Soccer",
+      "Swimming",
+      "Baseball"
+    ],
+    "answer_index": 1,
+    "explanation": "In soccer, players kick a ball with their feet to score goals.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "world_cultures",
+    "q_text": "How do people say 'hello' in Spanish?",
+    "options": [
+      "Goodbye",
+      "Thank you",
+      "Hola",
+      "Please"
+    ],
+    "answer_index": 2,
+    "explanation": "The Spanish word for 'hello' is 'Hola'.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "animals",
+    "q_text": "Which animal lives in the ocean and has many arms?",
+    "options": [
+      "Lion",
+      "Bird",
+      "Octopus",
+      "Cow"
+    ],
+    "answer_index": 2,
+    "explanation": "An octopus is a sea animal known for having eight arms.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "arts",
+    "q_text": "What do artists use to mix colors for painting?",
+    "options": [
+      "Hammer",
+      "Scissors",
+      "Palette",
+      "Spoon"
+    ],
+    "answer_index": 2,
+    "explanation": "Artists use a palette to hold and mix different colors of paint.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "history",
+    "q_text": "What famous huge stone buildings did people in ancient Egypt build?",
+    "options": [
+      "Castles",
+      "Pyramids",
+      "Skyscrapers",
+      "Treehouses"
+    ],
+    "answer_index": 1,
+    "explanation": "The ancient Egyptians built large stone pyramids as tombs for pharaohs.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "sports",
+    "q_text": "Which sport is played on ice with skates and a puck?",
+    "options": [
+      "Basketball",
+      "Soccer",
+      "Ice hockey",
+      "Swimming"
+    ],
+    "answer_index": 2,
+    "explanation": "Ice hockey is a team sport played on ice, where players skate and hit a puck.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "world_cultures",
+    "q_text": "What is a big parade with music and dancing, often with colorful costumes?",
+    "options": [
+      "A meeting",
+      "A nap",
+      "A festival or carnival",
+      "A quiet library"
+    ],
+    "answer_index": 2,
+    "explanation": "A festival or carnival is a public celebration with music, dancing, and colorful costumes.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "animals",
+    "q_text": "Which of these animals gives us milk to drink?",
+    "options": [
+      "Chicken",
+      "Pig",
+      "Cow",
+      "Duck"
+    ],
+    "answer_index": 2,
+    "explanation": "Cows are farm animals that produce milk for us to drink.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "arts",
+    "q_text": "What kind of art uses your body to tell a story or express feelings?",
+    "options": [
+      "Singing",
+      "Painting",
+      "Dancing",
+      "Reading"
+    ],
+    "answer_index": 2,
+    "explanation": "Dancing is an art form where people move their bodies to music or rhythm.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "history",
+    "q_text": "Before electricity, what did people use to light up their homes at night?",
+    "options": [
+      "Flashlights",
+      "Lamps with oil or candles",
+      "TVs",
+      "Computers"
+    ],
+    "answer_index": 1,
+    "explanation": "Long ago, people used lamps that burned oil or candles to light their homes.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "sports",
+    "q_text": "Which of these sports takes place mostly in water?",
+    "options": [
+      "Running",
+      "Basketball",
+      "Swimming",
+      "Tennis"
+    ],
+    "answer_index": 2,
+    "explanation": "Swimming is a sport where people move through water using their arms and legs.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "world_cultures",
+    "q_text": "Which musical instrument from Africa is often played by hitting it with hands?",
+    "options": [
+      "Guitar",
+      "Trumpet",
+      "Drum",
+      "Violin"
+    ],
+    "answer_index": 2,
+    "explanation": "Drums are popular musical instruments in Africa, often played by hand.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "geography",
+    "q_text": "What are the very big pieces of land on Earth called?",
+    "options": [
+      "Lakes",
+      "Oceans",
+      "Continents",
+      "Islands"
+    ],
+    "answer_index": 2,
+    "explanation": "Continents are the Earth's largest continuous masses of land.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "arts",
+    "q_text": "What do you call a piece of art made by carving wood or stone?",
+    "options": [
+      "A drawing",
+      "A song",
+      "A sculpture",
+      "A poem"
+    ],
+    "answer_index": 2,
+    "explanation": "A sculpture is a work of art made by shaping or combining materials like wood or stone.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "history",
+    "q_text": "Who was a very important person, like a ruler, in olden times?",
+    "options": [
+      "A mail carrier",
+      "A pilot",
+      "A king or queen",
+      "A bus driver"
+    ],
+    "answer_index": 2,
+    "explanation": "In olden times, a king or queen was a powerful ruler of a country.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "sports",
+    "q_text": "What are the five colorful rings a symbol of?",
+    "options": [
+      "A birthday party",
+      "The Olympic Games",
+      "A magic trick",
+      "A school bus"
+    ],
+    "answer_index": 1,
+    "explanation": "The five colorful rings are the famous symbol of the Olympic Games.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "easy",
+    "topic": "world_cultures",
+    "q_text": "Which of these is a home made of ice and snow, found in very cold places?",
+    "options": [
+      "Tent",
+      "Apartment",
+      "Igloo",
+      "Treehouse"
+    ],
+    "answer_index": 2,
+    "explanation": "An igloo is a type of shelter built from blocks of snow, often found in cold regions.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

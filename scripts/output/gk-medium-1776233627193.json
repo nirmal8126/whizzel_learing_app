@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "geography",
+    "q_text": "Which large desert covers much of North Africa?",
+    "options": [
+      "Gobi Desert",
+      "Sahara Desert",
+      "Arabian Desert",
+      "Atacama Desert"
+    ],
+    "answer_index": 1,
+    "explanation": "The Sahara Desert is the largest hot desert in the world, stretching across many countries in North Africa.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "history",
+    "q_text": "Before clocks with hands and numbers, what natural object did people use to tell time during the day?",
+    "options": [
+      "the moon",
+      "the stars",
+      "the sun",
+      "the wind"
+    ],
+    "answer_index": 2,
+    "explanation": "Sundials use the sun's shadow to show the time of day.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "world_cultures",
+    "q_text": "In which country would you typically find people eating sushi with chopsticks?",
+    "options": [
+      "China",
+      "Korea",
+      "Vietnam",
+      "Japan"
+    ],
+    "answer_index": 3,
+    "explanation": "Sushi is a traditional and very popular dish that originated in Japan.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "arts",
+    "q_text": "What are the three primary colors used in painting that cannot be made by mixing other colors?",
+    "options": [
+      "Red, Green, Blue",
+      "Red, Yellow, Green",
+      "Blue, Yellow, Purple",
+      "Red, Yellow, Blue"
+    ],
+    "answer_index": 3,
+    "explanation": "Red, yellow, and blue are the primary colors from which all other colors can be mixed.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "sports",
+    "q_text": "How many players are on the field for one team in a standard soccer match?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer_index": 2,
+    "explanation": "A soccer team plays with eleven players on the field, including the goalkeeper.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "geography",
+    "q_text": "Which continent is home to the Amazon Rainforest, the largest rainforest in the world?",
+    "options": [
+      "Africa",
+      "Asia",
+      "South America",
+      "North America"
+    ],
+    "answer_index": 2,
+    "explanation": "The vast Amazon Rainforest covers a large area of South America.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "history",
+    "q_text": "Which famous structures, built by ancient Egyptians, were used as tombs for pharaohs?",
+    "options": [
+      "Temples",
+      "Ziggurats",
+      "Pyramids",
+      "Coliseums"
+    ],
+    "answer_index": 2,
+    "explanation": "The ancient Egyptians built large pyramids as burial places for their kings and queens.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "world_cultures",
+    "q_text": "Which country is famous for the Great Wall, a very long structure built to protect its ancient borders?",
+    "options": [
+      "India",
+      "Russia",
+      "China",
+      "Mongolia"
+    ],
+    "answer_index": 2,
+    "explanation": "The Great Wall of China is one of the most famous landmarks in the world.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "arts",
+    "q_text": "What type of performance art uses graceful movements, often on pointe shoes, to tell a story without speaking?",
+    "options": [
+      "Opera",
+      "Musical",
+      "Ballet",
+      "Play"
+    ],
+    "answer_index": 2,
+    "explanation": "Ballet is a classical dance form known for its elegant and precise movements.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "sports",
+    "q_text": "In which sport would you try to score by throwing or dribbling a ball into a raised hoop?",
+    "options": [
+      "Football",
+      "Volleyball",
+      "Basketball",
+      "Handball"
+    ],
+    "answer_index": 2,
+    "explanation": "Basketball is played by two teams who score points by shooting a ball through the opponent's hoop.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "geography",
+    "q_text": "If you traveled to the North Pole, which animal would you most likely see in its natural habitat?",
+    "options": [
+      "Penguin",
+      "Polar Bear",
+      "Grizzly Bear",
+      "Kangaroo"
+    ],
+    "answer_index": 1,
+    "explanation": "Polar bears live in the Arctic regions around the North Pole.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "history",
+    "q_text": "Who was the first person to step on the moon during the Apollo 11 mission?",
+    "options": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "answer_index": 2,
+    "explanation": "Neil Armstrong made history as the first human to walk on the lunar surface.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "world_cultures",
+    "q_text": "Which musical instrument, known for its distinctive sound, is traditionally associated with Scotland?",
+    "options": [
+      "Trumpet",
+      "Bagpipes",
+      "Violin",
+      "Guitar"
+    ],
+    "answer_index": 1,
+    "explanation": "Bagpipes are a wind instrument with a unique sound, often played in Scotland.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "arts",
+    "q_text": "Which famous painting, known for its mysterious smile, was created by Leonardo da Vinci?",
+    "options": [
+      "The Starry Night",
+      "Mona Lisa",
+      "The Scream",
+      "Girl with a Pearl Earring"
+    ],
+    "answer_index": 1,
+    "explanation": "The Mona Lisa is a world-famous portrait painted by the Italian artist Leonardo da Vinci.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "sports",
+    "q_text": "Which type of swimming stroke involves lying on your back and moving your arms in a circular motion over your head?",
+    "options": [
+      "Freestyle",
+      "Breaststroke",
+      "Butterfly",
+      "Backstroke"
+    ],
+    "answer_index": 3,
+    "explanation": "In backstroke, swimmers lie on their back and propel themselves using a specific arm and leg motion.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "geography",
+    "q_text": "Which body of water separates the continents of Europe and Africa and connects the Atlantic Ocean to the Mediterranean Sea?",
+    "options": [
+      "Suez Canal",
+      "Panama Canal",
+      "Strait of Gibraltar",
+      "Bering Strait"
+    ],
+    "answer_index": 2,
+    "explanation": "The Strait of Gibraltar is a narrow waterway that links the Atlantic Ocean and the Mediterranean Sea.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "history",
+    "q_text": "Which ancient civilization first held athletic competitions similar to the Olympic Games?",
+    "options": [
+      "Ancient Rome",
+      "Ancient Greece",
+      "Ancient Egypt",
+      "Ancient China"
+    ],
+    "answer_index": 1,
+    "explanation": "The first Olympic Games were held in ancient Greece over two thousand years ago.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "world_cultures",
+    "q_text": "In which country would you most likely see traditional flamenco dancing, known for its passionate music and stomping feet?",
+    "options": [
+      "Italy",
+      "Mexico",
+      "Spain",
+      "Brazil"
+    ],
+    "answer_index": 2,
+    "explanation": "Flamenco is a vibrant and expressive dance form that originated in Spain.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "arts",
+    "q_text": "What do you call a person who writes plays for the theater?",
+    "options": [
+      "Novelist",
+      "Poet",
+      "Playwright",
+      "Lyricist"
+    ],
+    "answer_index": 2,
+    "explanation": "A playwright is an author who writes scripts for theatrical productions.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "sports",
+    "q_text": "How many colored rings are there on the official Olympic flag?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer_index": 2,
+    "explanation": "The Olympic flag has five interlocking rings, representing the five inhabited continents of the world.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "geography",
+    "q_text": "The Grand Canyon, a very large and deep valley carved by a river, is located in which country?",
+    "options": [
+      "Canada",
+      "United States",
+      "Australia",
+      "Mexico"
+    ],
+    "answer_index": 1,
+    "explanation": "The Grand Canyon is a spectacular natural wonder found in Arizona, USA.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "history",
+    "q_text": "Before the invention of cars, what was a common way for people to travel long distances on land?",
+    "options": [
+      "Airplanes",
+      "Submarines",
+      "Horse-drawn carriages",
+      "Bicycles"
+    ],
+    "answer_index": 2,
+    "explanation": "Horse-drawn carriages were a primary mode of transportation before the widespread use of automobiles.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "world_cultures",
+    "q_text": "What is the most widely spoken language in the world, in terms of the number of native speakers?",
+    "options": [
+      "English",
+      "Spanish",
+      "Hindi",
+      "Mandarin Chinese"
+    ],
+    "answer_index": 3,
+    "explanation": "Mandarin Chinese has the largest number of native speakers globally.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "arts",
+    "q_text": "Which musical instrument has both black and white keys that you press to make sounds?",
+    "options": [
+      "Guitar",
+      "Drums",
+      "Trumpet",
+      "Piano"
+    ],
+    "answer_index": 3,
+    "explanation": "A piano is a popular musical instrument played by pressing keys that cause hammers to strike strings.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "sports",
+    "q_text": "In which sport do players use a racket to hit a shuttlecock over a net?",
+    "options": [
+      "Tennis",
+      "Volleyball",
+      "Badminton",
+      "Squash"
+    ],
+    "answer_index": 2,
+    "explanation": "Badminton is a racket sport where players hit a lightweight shuttlecock over a net.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "geography",
+    "q_text": "Which continent is known for its unique wildlife like kangaroos, koalas, and wombats?",
+    "options": [
+      "Asia",
+      "Africa",
+      "South America",
+      "Australia"
+    ],
+    "answer_index": 3,
+    "explanation": "Australia is famous for its diverse and unique marsupial animals.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "history",
+    "q_text": "What type of prehistoric creatures roamed the Earth millions of years ago, before humans existed?",
+    "options": [
+      "Mammoths",
+      "Sabertooth tigers",
+      "Dinosaurs",
+      "Cave bears"
+    ],
+    "answer_index": 2,
+    "explanation": "Dinosaurs were a group of reptiles that dominated the Earth for about 165 million years.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "world_cultures",
+    "q_text": "Diwali, known as the 'Festival of Lights,' is an important celebration in which country?",
+    "options": [
+      "Japan",
+      "India",
+      "Egypt",
+      "France"
+    ],
+    "answer_index": 1,
+    "explanation": "Diwali is a major Hindu festival celebrated with lights, fireworks, and sweets.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "arts",
+    "q_text": "What is the term for a large group of musicians who play together with various instruments, led by a conductor?",
+    "options": [
+      "Band",
+      "Choir",
+      "Orchestra",
+      "Ensemble"
+    ],
+    "answer_index": 2,
+    "explanation": "An orchestra is a large musical group featuring string, woodwind, brass, and percussion instruments.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "medium",
+    "topic": "sports",
+    "q_text": "Which team sport is played on ice with skates, sticks, and a puck?",
+    "options": [
+      "Curling",
+      "Figure Skating",
+      "Ice Hockey",
+      "Speed Skating"
+    ],
+    "answer_index": 2,
+    "explanation": "Ice hockey is a fast-paced sport played on an ice rink, where players try to score by shooting a puck into the opponent's net.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

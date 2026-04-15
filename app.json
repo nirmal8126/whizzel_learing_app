@@ -1,19 +1,21 @@
 {
   "expo": {
-    "name": "BrainQuestAdventure",
-    "slug": "BrainQuestAdventure",
+    "name": "Brain Quest Adventure",
+    "slug": "brain-quest-adventure",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "brainquestadventure",
-    "userInterfaceStyle": "automatic",
+    "scheme": "brainquest",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brainquest.adventure"
     },
     "android": {
+      "package": "com.brainquest.adventure",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FFF7ED",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -22,7 +24,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "static",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
@@ -33,12 +35,14 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#FFF7ED",
           "dark": {
-            "backgroundColor": "#000000"
+            "backgroundColor": "#1E293B"
           }
         }
-      ]
+      ],
+      "expo-audio",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,

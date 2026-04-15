@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "cells",
+    "q_text": "Which organelle is responsible for generating most of the ATP (energy currency) in eukaryotic cells through cellular respiration?",
+    "options": [
+      "Nucleus",
+      "Mitochondrion",
+      "Ribosome",
+      "Endoplasmic reticulum"
+    ],
+    "answer_index": 1,
+    "explanation": "Mitochondria are often called the \"powerhouses\" of the cell because they produce energy.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "forces",
+    "q_text": "A student pushes a box across the floor. If the box accelerates, which statement accurately describes the forces acting on it?",
+    "options": [
+      "The applied force is equal to the frictional force.",
+      "The applied force is less than the frictional force.",
+      "The net force on the box is zero.",
+      "The applied force is greater than the frictional force."
+    ],
+    "answer_index": 3,
+    "explanation": "For an object to accelerate, the net force acting on it must be greater than zero, meaning the applied force overcomes friction.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "elements",
+    "q_text": "The periodic table organizes elements based on their atomic number. Which subatomic particle primarily determines an element's atomic number?",
+    "options": [
+      "Neutron",
+      "Electron",
+      "Proton",
+      "Photon"
+    ],
+    "answer_index": 2,
+    "explanation": "The atomic number of an element is defined by the number of protons in the nucleus of its atoms.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "solar_system",
+    "q_text": "Mars is often called the \"Red Planet\" due to the presence of which substance on its surface?",
+    "options": [
+      "Liquid water",
+      "Carbon dioxide ice",
+      "Iron oxide",
+      "Silicate rock"
+    ],
+    "answer_index": 2,
+    "explanation": "Iron oxide, commonly known as rust, gives Mars its characteristic reddish hue.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "geology",
+    "q_text": "Earthquakes occur when tectonic plates suddenly slip past each other. What is the geological term for the boundary where two tectonic plates meet?",
+    "options": [
+      "Volcano",
+      "Canyon",
+      "Fault line",
+      "Trench"
+    ],
+    "answer_index": 2,
+    "explanation": "A fault line is a fracture in the Earth's crust where blocks of rock move relative to each other, causing earthquakes.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "ecosystems",
+    "q_text": "In a typical food web, which type of organism obtains energy by consuming producers?",
+    "options": [
+      "Decomposer",
+      "Tertiary consumer",
+      "Primary consumer",
+      "Producer"
+    ],
+    "answer_index": 2,
+    "explanation": "Primary consumers, also known as herbivores, feed directly on producers like plants.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "energy",
+    "q_text": "When you rub your hands together, you generate heat. This is an example of what type of energy transformation?",
+    "options": [
+      "Chemical energy to light energy",
+      "Electrical energy to sound energy",
+      "Kinetic energy to thermal energy",
+      "Potential energy to electrical energy"
+    ],
+    "answer_index": 2,
+    "explanation": "The kinetic energy of your moving hands is converted into thermal energy, which you feel as heat.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "states_of_matter",
+    "q_text": "Which of the following best describes the particles in a gas?",
+    "options": [
+      "Tightly packed and vibrate in fixed positions.",
+      "Closely packed but can slide past each other.",
+      "Widely spaced and move randomly at high speeds.",
+      "Arranged in a regular, repeating pattern."
+    ],
+    "answer_index": 2,
+    "explanation": "Gas particles have high kinetic energy, causing them to move freely and far apart from each other.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "stars",
+    "q_text": "What celestial body is at the center of our solar system and provides light and heat to Earth?",
+    "options": [
+      "The Moon",
+      "Alpha Centauri",
+      "Jupiter",
+      "The Sun"
+    ],
+    "answer_index": 3,
+    "explanation": "The Sun is the star at the heart of our solar system, essential for life on Earth.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "meteorology",
+    "q_text": "What is the primary process by which water vapor in the atmosphere turns into liquid water droplets to form clouds?",
+    "options": [
+      "Evaporation",
+      "Precipitation",
+      "Condensation",
+      "Transpiration"
+    ],
+    "answer_index": 2,
+    "explanation": "Condensation is the process where water vapor cools and changes into liquid water droplets, forming clouds.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "human_body",
+    "q_text": "Which system in the human body is responsible for transporting oxygen, nutrients, and waste products throughout the body?",
+    "options": [
+      "Nervous system",
+      "Skeletal system",
+      "Circulatory system",
+      "Digestive system"
+    ],
+    "answer_index": 2,
+    "explanation": "The circulatory system, including the heart, blood, and blood vessels, transports essential substances.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "light",
+    "q_text": "When white light passes through a prism, it separates into different colors. This phenomenon is known as:",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction",
+      "Absorption"
+    ],
+    "answer_index": 1,
+    "explanation": "Refraction is the bending of light as it passes from one medium to another, causing it to split into its constituent colors.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "acids_bases",
+    "q_text": "A substance with a pH value of 2 would be classified as:",
+    "options": [
+      "A strong base",
+      "A neutral substance",
+      "A strong acid",
+      "A weak base"
+    ],
+    "answer_index": 2,
+    "explanation": "Substances with a pH below 7 are acidic, and a pH of 2 indicates a strong acid.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "galaxies",
+    "q_text": "Our solar system is located within which spiral galaxy?",
+    "options": [
+      "Andromeda Galaxy",
+      "Triangulum Galaxy",
+      "Pinwheel Galaxy",
+      "Milky Way Galaxy"
+    ],
+    "answer_index": 3,
+    "explanation": "The Milky Way is the galaxy that contains our Sun, Earth, and all the other planets in our solar system.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "oceanography",
+    "q_text": "Which of the following is the largest and deepest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Southern Ocean",
+      "Pacific Ocean"
+    ],
+    "answer_index": 3,
+    "explanation": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "plants",
+    "q_text": "What is the primary function of chlorophyll in plants?",
+    "options": [
+      "To absorb water from the soil.",
+      "To transport nutrients throughout the plant.",
+      "To convert sunlight into chemical energy.",
+      "To provide structural support to the leaves."
+    ],
+    "answer_index": 2,
+    "explanation": "Chlorophyll is the pigment that captures light energy for photosynthesis, converting it into food for the plant.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "electricity",
+    "q_text": "Which material is generally considered a good electrical conductor?",
+    "options": [
+      "Rubber",
+      "Glass",
+      "Copper",
+      "Wood"
+    ],
+    "answer_index": 2,
+    "explanation": "Copper is a metal with free electrons, allowing electricity to flow through it easily.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "chemical_reactions",
+    "q_text": "When iron rusts, it combines with oxygen in the air to form iron oxide. This process is an example of what type of chemical change?",
+    "options": [
+      "Physical change",
+      "Nuclear reaction",
+      "Chemical reaction",
+      "Phase change"
+    ],
+    "answer_index": 2,
+    "explanation": "Rusting is a chemical reaction where iron atoms rearrange with oxygen atoms to form a new substance.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "space_phenomena",
+    "q_text": "A meteoroid that survives its passage through Earth's atmosphere and strikes the ground is called what?",
+    "options": [
+      "Comet",
+      "Asteroid",
+      "Meteor",
+      "Meteorite"
+    ],
+    "answer_index": 3,
+    "explanation": "A meteorite is the remnant of a meteoroid that impacts the Earth's surface.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "climate",
+    "q_text": "The long-term average weather pattern in a region is known as its:",
+    "options": [
+      "Season",
+      "Weather forecast",
+      "Climate",
+      "Atmosphere"
+    ],
+    "answer_index": 2,
+    "explanation": "Climate describes the typical weather conditions and patterns over an extended period in a specific area.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "genetics",
+    "q_text": "What are the basic building blocks of DNA that carry genetic information?",
+    "options": [
+      "Amino acids",
+      "Lipids",
+      "Nucleotides",
+      "Carbohydrates"
+    ],
+    "answer_index": 2,
+    "explanation": "DNA is made up of units called nucleotides, each containing a sugar, a phosphate, and a nitrogenous base.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "motion",
+    "q_text": "An object at rest tends to stay at rest, and an object in motion tends to stay in motion with the same speed and in the same direction unless acted upon by an unbalanced force. This statement describes:",
+    "options": [
+      "Newton's Third Law of Motion",
+      "The Law of Conservation of Energy",
+      "Newton's First Law of Motion",
+      "Archimedes' Principle"
+    ],
+    "answer_index": 2,
+    "explanation": "Newton's First Law, also known as the Law of Inertia, describes how objects resist changes in their state of motion.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "mixtures",
+    "q_text": "A solution is a special type of mixture where one substance is dissolved evenly into another. What is the substance that gets dissolved?",
+    "options": [
+      "Solvent",
+      "Precipitate",
+      "Solute",
+      "Suspension"
+    ],
+    "answer_index": 2,
+    "explanation": "In a solution, the solute is the substance that is dispersed or dissolved within the solvent.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "planets",
+    "q_text": "Which planet in our solar system is known for its prominent system of rings, composed primarily of ice particles and rock fragments?",
+    "options": [
+      "Jupiter",
+      "Uranus",
+      "Neptune",
+      "Saturn"
+    ],
+    "answer_index": 3,
+    "explanation": "Saturn is famously recognized for its stunning and extensive ring system.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "natural_resources",
+    "q_text": "Which of the following is a non-renewable natural resource?",
+    "options": [
+      "Solar energy",
+      "Wind energy",
+      "Crude oil",
+      "Geothermal energy"
+    ],
+    "answer_index": 2,
+    "explanation": "Crude oil is a fossil fuel that takes millions of years to form and cannot be replenished on a human timescale.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "animals",
+    "q_text": "Animals that maintain a constant internal body temperature regardless of external temperature are called:",
+    "options": [
+      "Poikilotherms",
+      "Ectotherms",
+      "Endotherms",
+      "Cold-blooded"
+    ],
+    "answer_index": 2,
+    "explanation": "Endotherms, like mammals and birds, regulate their body temperature internally.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "sound",
+    "q_text": "Sound waves travel fastest through which of the following mediums at a given temperature?",
+    "options": [
+      "A vacuum",
+      "Air",
+      "Water",
+      "Steel"
+    ],
+    "answer_index": 3,
+    "explanation": "Sound travels faster through denser materials with closely packed particles, like solids, allowing vibrations to transmit more quickly.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "atoms",
+    "q_text": "The majority of an atom's mass is concentrated in which part?",
+    "options": [
+      "Electron cloud",
+      "Nucleus",
+      "Orbitals",
+      "Valence shell"
+    ],
+    "answer_index": 1,
+    "explanation": "The nucleus contains protons and neutrons, which are much more massive than the electrons, giving the nucleus most of the atom's mass.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "universe",
+    "q_text": "What scientific theory describes the origin and expansion of the universe from an extremely hot, dense state?",
+    "options": [
+      "Steady-State Theory",
+      "Big Bang Theory",
+      "Oscillating Universe Theory",
+      "Multiverse Theory"
+    ],
+    "answer_index": 1,
+    "explanation": "The Big Bang Theory is the prevailing cosmological model for the universe's earliest known periods and its subsequent large-scale evolution.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "hard",
+    "topic": "water_cycle",
+    "q_text": "During the water cycle, water vapor rises into the atmosphere. This process is primarily driven by energy from:",
+    "options": [
+      "Earth's core",
+      "The Moon's gravity",
+      "The Sun",
+      "Volcanic activity"
+    ],
+    "answer_index": 2,
+    "explanation": "Solar energy powers evaporation, heating water and causing it to turn into vapor that rises into the atmosphere.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

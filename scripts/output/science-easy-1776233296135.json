@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "animals",
+    "q_text": "Which animal lays eggs?",
+    "options": [
+      "Cat",
+      "Dog",
+      "Chicken",
+      "Cow"
+    ],
+    "answer_index": 2,
+    "explanation": "A chicken lays eggs for baby chicks.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "weather",
+    "q_text": "What makes a rainbow appear in the sky?",
+    "options": [
+      "Wind and snow",
+      "Sun and rain",
+      "Clouds and thunder",
+      "Moon and stars"
+    ],
+    "answer_index": 1,
+    "explanation": "Sunlight shining through raindrops makes a beautiful rainbow.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "light",
+    "q_text": "Which one gives us light during the day?",
+    "options": [
+      "The Moon",
+      "A lamp",
+      "The Sun",
+      "A candle"
+    ],
+    "answer_index": 2,
+    "explanation": "The Sun is a giant star that gives us light and warmth in the daytime.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "plants",
+    "q_text": "What do plants need to grow big and strong?",
+    "options": [
+      "Candy and soda",
+      "Water and sunlight",
+      "Toys and games",
+      "Balloons and glitter"
+    ],
+    "answer_index": 1,
+    "explanation": "Plants drink water and use sunlight to make their own food.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "moon",
+    "q_text": "What do we see in the sky at night that changes its shape?",
+    "options": [
+      "The Sun",
+      "The Moon",
+      "Airplanes",
+      "Clouds"
+    ],
+    "answer_index": 1,
+    "explanation": "The Moon appears to change shape as it orbits the Earth.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "water",
+    "q_text": "Where does most of the water on Earth live?",
+    "options": [
+      "In big puddles",
+      "In rivers and lakes",
+      "In the ocean",
+      "In swimming pools"
+    ],
+    "answer_index": 2,
+    "explanation": "The ocean is a very big body of salty water that covers most of Earth.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "human_body",
+    "q_text": "Which part of your body helps you hear sounds?",
+    "options": [
+      "Your eyes",
+      "Your nose",
+      "Your ears",
+      "Your mouth"
+    ],
+    "answer_index": 2,
+    "explanation": "Your ears have tiny parts inside that catch sounds from around you.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "sound",
+    "q_text": "What do we use to make music?",
+    "options": [
+      "Books",
+      "Musical instruments",
+      "Food",
+      "Blankets"
+    ],
+    "answer_index": 1,
+    "explanation": "Musical instruments like guitars and drums make different sounds we can enjoy.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "food",
+    "q_text": "Which of these is a fruit?",
+    "options": [
+      "Carrot",
+      "Potato",
+      "Apple",
+      "Onion"
+    ],
+    "answer_index": 2,
+    "explanation": "An apple is a sweet fruit that grows on trees.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "seasons",
+    "q_text": "Which season is usually cold and has snow?",
+    "options": [
+      "Summer",
+      "Spring",
+      "Autumn",
+      "Winter"
+    ],
+    "answer_index": 3,
+    "explanation": "Winter is the coldest season and often brings snow and ice.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "gravity",
+    "q_text": "Why does an apple fall down from a tree?",
+    "options": [
+      "Gravity pulls it down",
+      "The wind pushes it",
+      "It wants to go up",
+      "It bounces up"
+    ],
+    "answer_index": 0,
+    "explanation": "Gravity is a force that pulls things towards the Earth.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "habitat",
+    "q_text": "Where does a fish live?",
+    "options": [
+      "In a tree",
+      "In the sky",
+      "Underground",
+      "In water"
+    ],
+    "answer_index": 3,
+    "explanation": "Fish have gills to breathe underwater, so they live in water.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "stars",
+    "q_text": "What are the tiny, twinkling lights we see in the night sky?",
+    "options": [
+      "Fireflies",
+      "Stars",
+      "Airplanes",
+      "Streetlights"
+    ],
+    "answer_index": 1,
+    "explanation": "Stars are giant balls of hot gas very far away that shine brightly.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "rocks",
+    "q_text": "Which of these is a rock?",
+    "options": [
+      "A pebble",
+      "A leaf",
+      "A feather",
+      "A cloud"
+    ],
+    "answer_index": 0,
+    "explanation": "A pebble is a small, smooth rock often found near water.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "animal_sounds",
+    "q_text": "What sound does a dog make?",
+    "options": [
+      "Meow",
+      "Moo",
+      "Quack",
+      "Woof"
+    ],
+    "answer_index": 3,
+    "explanation": "A dog barks and makes a \"woof\" sound.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "heat",
+    "q_text": "What makes ice turn into water?",
+    "options": [
+      "Heat",
+      "Cold",
+      "Wind",
+      "Darkness"
+    ],
+    "answer_index": 0,
+    "explanation": "When ice gets warm, it melts and turns into liquid water.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "lifecycle",
+    "q_text": "What does a caterpillar turn into?",
+    "options": [
+      "A bird",
+      "A frog",
+      "A fish",
+      "A butterfly"
+    ],
+    "answer_index": 3,
+    "explanation": "A caterpillar changes into a chrysalis and then becomes a beautiful butterfly.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "air",
+    "q_text": "What do we breathe every day to live?",
+    "options": [
+      "Air",
+      "Water",
+      "Food",
+      "Sand"
+    ],
+    "answer_index": 0,
+    "explanation": "We breathe in air, which has oxygen, to help our bodies work.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "solar_system",
+    "q_text": "Which planet is called the \"Red Planet\"?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Jupiter",
+      "Venus"
+    ],
+    "answer_index": 0,
+    "explanation": "Mars is often called the Red Planet because of its reddish color.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "human_body",
+    "q_text": "How many fingers do most people have on one hand?",
+    "options": [
+      "Three",
+      "Four",
+      "Six",
+      "Five"
+    ],
+    "answer_index": 3,
+    "explanation": "Most people have five fingers on each hand, including a thumb.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "movement",
+    "q_text": "What makes a toy car roll on the floor?",
+    "options": [
+      "It is sleepy",
+      "Someone pushes it",
+      "It wants to fly",
+      "It is hungry"
+    ],
+    "answer_index": 1,
+    "explanation": "When you push a toy car, you give it energy to move.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "plants",
+    "q_text": "Which part of a plant grows under the ground?",
+    "options": [
+      "The leaves",
+      "The flowers",
+      "The roots",
+      "The stem"
+    ],
+    "answer_index": 2,
+    "explanation": "Roots grow under the ground and help the plant drink water.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "clouds",
+    "q_text": "What are clouds made of?",
+    "options": [
+      "Smoke",
+      "Cotton candy",
+      "Fluffy toys",
+      "Tiny water droplets"
+    ],
+    "answer_index": 3,
+    "explanation": "Clouds are made of tiny drops of water or ice crystals floating in the air.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "magnets",
+    "q_text": "What can a magnet stick to?",
+    "options": [
+      "Metal",
+      "Wood",
+      "Paper",
+      "Plastic"
+    ],
+    "answer_index": 0,
+    "explanation": "Magnets are special rocks that can pull certain metals towards them.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "senses",
+    "q_text": "Which sense do you use to smell a flower?",
+    "options": [
+      "Taste",
+      "Smell",
+      "Touch",
+      "Sight"
+    ],
+    "answer_index": 1,
+    "explanation": "Your nose helps you smell wonderful things like flowers.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "day_night",
+    "q_text": "Why do we have daytime and nighttime?",
+    "options": [
+      "The Sun goes to sleep",
+      "The Moon hides the Sun",
+      "Earth spins around",
+      "Clouds cover the sky"
+    ],
+    "answer_index": 2,
+    "explanation": "Earth spins around like a top, and when your part faces the Sun, it's daytime.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "earth_science",
+    "q_text": "What is a mountain that can sometimes blow out hot ash and lava?",
+    "options": [
+      "A hill",
+      "A cliff",
+      "A valley",
+      "A volcano"
+    ],
+    "answer_index": 3,
+    "explanation": "A volcano is a special mountain that can erupt with hot rock and ash.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "animal_homes",
+    "q_text": "Where does a bird build its home?",
+    "options": [
+      "In a nest",
+      "In a cave",
+      "In a pond",
+      "In a sandbox"
+    ],
+    "answer_index": 0,
+    "explanation": "Birds build nests in trees or other safe places to lay their eggs and raise babies.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "floating_sinking",
+    "q_text": "What will happen if you put a heavy rock in water?",
+    "options": [
+      "It will float",
+      "It will sink",
+      "It will fly",
+      "It will disappear"
+    ],
+    "answer_index": 1,
+    "explanation": "Heavy things like rocks usually sink to the bottom of the water.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "easy",
+    "topic": "animal_coverings",
+    "q_text": "What covers a bird's body?",
+    "options": [
+      "Fur",
+      "Scales",
+      "Feathers",
+      "Skin"
+    ],
+    "answer_index": 2,
+    "explanation": "Birds have feathers to keep them warm and help them fly.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

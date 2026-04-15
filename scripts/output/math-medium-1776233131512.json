@@ -1,0 +1,562 @@
+[
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "addition",
+    "q_text": "A baker made 125 cookies on Monday and 238 cookies on Tuesday. How many cookies did he make in total?",
+    "options": [
+      "353",
+      "363",
+      "373",
+      "343"
+    ],
+    "answer_index": 1,
+    "explanation": "To find the total, you add the number of cookies made on Monday and Tuesday.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "subtraction",
+    "q_text": "There are 450 books in the library. If 135 books are borrowed, how many books are left?",
+    "options": [
+      "315",
+      "325",
+      "215",
+      "225"
+    ],
+    "answer_index": 0,
+    "explanation": "Subtract the borrowed books from the total number of books to find out how many are left.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "multiplication",
+    "q_text": "A farmer plants 8 rows of corn, with 12 corn stalks in each row. How many corn stalks are there in total?",
+    "options": [
+      "20",
+      "84",
+      "96",
+      "102"
+    ],
+    "answer_index": 2,
+    "explanation": "Multiply the number of rows by the number of stalks in each row to get the total.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "division",
+    "q_text": "Sarah has 48 stickers and wants to share them equally among her 6 friends. How many stickers does each friend get?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer_index": 2,
+    "explanation": "Divide the total stickers by the number of friends to find each friend's share.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "perimeter",
+    "q_text": "A rectangular garden is 10 meters long and 5 meters wide. What is its perimeter?",
+    "options": [
+      "15 meters",
+      "30 meters",
+      "50 meters",
+      "25 meters"
+    ],
+    "answer_index": 1,
+    "explanation": "The perimeter is the total distance around the garden, which is length + width + length + width.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "area",
+    "q_text": "A square tile has sides that are 7 centimeters long. What is the area of the tile?",
+    "options": [
+      "14 square cm",
+      "28 square cm",
+      "35 square cm",
+      "49 square cm"
+    ],
+    "answer_index": 3,
+    "explanation": "The area of a square is found by multiplying its side length by itself.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "number_patterns",
+    "q_text": "What is the next number in this pattern: 3, 6, 9, 12, __?",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "18"
+    ],
+    "answer_index": 2,
+    "explanation": "The pattern increases by adding 3 to the previous number each time.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "word_problems",
+    "q_text": "Emily had 150 marbles. She won 75 more marbles and then gave 30 marbles to her brother. How many marbles does she have now?",
+    "options": [
+      "185",
+      "195",
+      "205",
+      "215"
+    ],
+    "answer_index": 1,
+    "explanation": "First, add the marbles she won, then subtract the marbles she gave away.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "time",
+    "q_text": "A movie started at 3:15 PM and lasted for 2 hours and 30 minutes. What time did the movie end?",
+    "options": [
+      "5:30 PM",
+      "5:45 PM",
+      "6:00 PM",
+      "5:15 PM"
+    ],
+    "answer_index": 1,
+    "explanation": "Add the movie's duration to its start time to find the end time.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "money",
+    "q_text": "Leo bought a toy for $3.75 and paid with a $5.00 bill. How much change did he receive?",
+    "options": [
+      "$1.00",
+      "$1.25",
+      "$1.50",
+      "$2.25"
+    ],
+    "answer_index": 1,
+    "explanation": "Subtract the cost of the toy from the amount paid to find the change.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "logical_reasoning",
+    "q_text": "If a blue car is faster than a red car, and a yellow car is faster than a blue car, which car is the slowest?",
+    "options": [
+      "Yellow car",
+      "Blue car",
+      "Red car",
+      "They are all the same speed"
+    ],
+    "answer_index": 2,
+    "explanation": "By comparing the speeds, the red car is slower than the blue car, which is slower than the yellow car.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "3d_shapes",
+    "q_text": "Which of these is a 3-dimensional shape with six flat faces, twelve edges, and eight vertices?",
+    "options": [
+      "Cylinder",
+      "Cone",
+      "Cube",
+      "Sphere"
+    ],
+    "answer_index": 2,
+    "explanation": "A cube has 6 faces, 12 edges, and 8 corners (vertices).",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "mixed_operations",
+    "q_text": "What is the value of 5 x 6 - 10 + 3?",
+    "options": [
+      "23",
+      "33",
+      "27",
+      "20"
+    ],
+    "answer_index": 0,
+    "explanation": "First multiply, then subtract, then add to solve the problem.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "fractions_comparison",
+    "q_text": "Which fraction is the largest?",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/3",
+      "1/5"
+    ],
+    "answer_index": 0,
+    "explanation": "When the top number is the same, the fraction with the smaller bottom number is larger.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "shape_patterns",
+    "q_text": "What comes next in the pattern: Circle, Square, Triangle, Circle, Square, __?",
+    "options": [
+      "Circle",
+      "Square",
+      "Triangle",
+      "Rectangle"
+    ],
+    "answer_index": 2,
+    "explanation": "The pattern repeats a circle, then a square, then a triangle.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "money_word_problem",
+    "q_text": "Each ticket to the zoo costs $7. If a family of 4 people goes to the zoo, how much will they pay in total?",
+    "options": [
+      "$11",
+      "$21",
+      "$28",
+      "$35"
+    ],
+    "answer_index": 2,
+    "explanation": "Multiply the cost of one ticket by the number of people to find the total cost.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "angles",
+    "q_text": "Which type of angle is exactly 90 degrees?",
+    "options": [
+      "Acute angle",
+      "Obtuse angle",
+      "Right angle",
+      "Straight angle"
+    ],
+    "answer_index": 2,
+    "explanation": "An angle that forms a perfect corner is called a right angle.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "place_value",
+    "q_text": "In the number 7,382, what is the value of the digit 3?",
+    "options": [
+      "3 units",
+      "3 tens",
+      "3 hundreds",
+      "3 thousands"
+    ],
+    "answer_index": 2,
+    "explanation": "The digit 3 is in the hundreds place, so its value is 300.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "measurement",
+    "q_text": "Which unit would you use to measure the length of a pencil?",
+    "options": [
+      "Kilometers",
+      "Meters",
+      "Centimeters",
+      "Liters"
+    ],
+    "answer_index": 2,
+    "explanation": "Centimeters are a good unit for measuring smaller objects like a pencil.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "deduction",
+    "q_text": "If all cats have whiskers, and my pet Mittens has whiskers, does that mean Mittens is a cat?",
+    "options": [
+      "Yes, Mittens must be a cat.",
+      "No, Mittens could be another animal.",
+      "Only if Mittens also purrs.",
+      "There's not enough information."
+    ],
+    "answer_index": 1,
+    "explanation": "Many animals have whiskers, so having whiskers doesn't automatically mean Mittens is a cat.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "rounding",
+    "q_text": "Round the number 276 to the nearest ten.",
+    "options": [
+      "270",
+      "280",
+      "200",
+      "300"
+    ],
+    "answer_index": 1,
+    "explanation": "Since 6 is 5 or greater, you round up the tens digit to the next ten.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "decimals_comparison",
+    "q_text": "Which of these decimals is the smallest?",
+    "options": [
+      "0.5",
+      "0.25",
+      "0.7",
+      "0.1"
+    ],
+    "answer_index": 3,
+    "explanation": "Comparing the first digit after the decimal point, 1 is the smallest.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "time_difference",
+    "q_text": "A bus leaves the station at 9:00 AM and arrives at its destination at 1:30 PM. How long was the bus journey?",
+    "options": [
+      "3 hours 30 minutes",
+      "4 hours",
+      "4 hours 30 minutes",
+      "5 hours"
+    ],
+    "answer_index": 2,
+    "explanation": "Count the hours from 9 AM to 1 PM, then add the extra minutes.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "symmetry",
+    "q_text": "Which of these letters has a line of symmetry?",
+    "options": [
+      "F",
+      "G",
+      "H",
+      "J"
+    ],
+    "answer_index": 2,
+    "explanation": "The letter H can be folded exactly in half to show it has symmetry.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "average",
+    "q_text": "Sarah scored 8 points in her first basketball game and 10 points in her second game. What was her average score for these two games?",
+    "options": [
+      "8 points",
+      "9 points",
+      "10 points",
+      "18 points"
+    ],
+    "answer_index": 1,
+    "explanation": "Add the scores together and then divide by the number of games to find the average.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "spatial_reasoning",
+    "q_text": "If you are facing North and turn right, what direction are you facing?",
+    "options": [
+      "East",
+      "West",
+      "South",
+      "North-East"
+    ],
+    "answer_index": 0,
+    "explanation": "Turning right from North will point you towards the East.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "number_sense",
+    "q_text": "A store had 500 balloons. They sold 175 in the morning and 210 in the afternoon. How many balloons are left?",
+    "options": [
+      "115",
+      "125",
+      "135",
+      "145"
+    ],
+    "answer_index": 0,
+    "explanation": "Subtract the balloons sold in the morning and afternoon from the total number of balloons.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "medium",
+    "topic": "number_sequences",
+    "q_text": "What is the next number in the sequence: 80, 40, 20, 10, __?",
+    "options": [
+      "5",
+      "15",
+      "0",
+      "20"
+    ],
+    "answer_index": 0,
+    "explanation": "Each number in the sequence is half of the previous number.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

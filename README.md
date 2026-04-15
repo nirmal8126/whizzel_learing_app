@@ -1,50 +1,115 @@
-# Welcome to your Expo app 👋
+# Brain Quest Adventure
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+E-learning quiz app for kids aged 4-12+. Four subjects (Math, Science, Language, General Knowledge), three difficulty tiers, gamified scoring and badges.
 
-## Get started
+Built with Expo (React Native) + Supabase + Gemini AI.
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Getting started
 
 ```bash
-npm run reset-project
+npm install
+cp .env.example .env   # then fill in real keys
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Install **Expo Go** on your phone (App Store / Play Store), scan the QR code, app runs in seconds.
 
-## Learn more
+## Stack
 
-To learn more about developing your project with Expo, look at the following resources:
+- **App:** React Native + Expo Router + Reanimated + Lottie + Haptics
+- **Backend:** Supabase (Postgres + Auth + RLS)
+- **AI:** Google Gemini 2.5 Flash (question generation + safety review)
+- **Storage:** AsyncStorage (local progress cache + offline support)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Project structure
 
-## Join the community
+```
+app/                    Expo Router screens (home, subjects, quiz, results, badges)
+components/             (reserved for shared UI when needed)
+constants/theme.ts      Color + font tokens
+data/                   Typed game constants (subjects, difficulties, bundled fallback questions)
+hooks/
+  use-progress.ts       Player state + AsyncStorage
+  use-quiz.ts           Quiz engine (timer, scoring, advance)
+lib/
+  supabase.ts           Supabase client (opt-in via .env)
+  questions-repo.ts     Questions: cache → Supabase → bundled fallback
+  shuffle.ts
+scripts/
+  generate-questions.ts Gemini generation + safety pass
+  generate-all.ts       Generate across all 12 subject × difficulty slots
+  import-questions.ts   Import generated JSON into Supabase
+  output/               Generated JSON files land here
+supabase/
+  migrations/           SQL schema (run once in Supabase SQL editor)
+```
 
-Join our community of developers creating universal apps.
+## First-time setup (one-time)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 1. Fill `.env`
+
+```
+EXPO_PUBLIC_SUPABASE_URL=https://<project>.supabase.co
+EXPO_PUBLIC_SUPABASE_ANON_KEY=<anon key>
+GEMINI_API_KEY=<from https://aistudio.google.com/apikey>
+SUPABASE_SERVICE_ROLE_KEY=<service_role key — never commit>
+```
+
+### 2. Create tables in Supabase
+
+Open Supabase dashboard → SQL Editor → paste contents of `supabase/migrations/20260415000000_init.sql` → Run.
+
+This creates: `profiles`, `children`, `questions`, `quiz_sessions`, `quiz_answers`, `progress`, plus triggers and Row-Level Security policies.
+
+### 3. Seed question bank with AI
+
+Generate questions for a single slot:
+
+```bash
+npm run generate -- --subject=math --difficulty=easy --count=30
+# optional: --topic=fractions
+```
+
+Generate all 12 slots at once:
+
+```bash
+npm run gen:all -- --count=40
+# → 480 questions total, ~3-5 min
+```
+
+Output lands in `scripts/output/*.json`. Review a few before importing.
+
+### 4. Import into Supabase
+
+```bash
+npm run import -- scripts/output/math-easy-*.json
+# or all at once:
+npm run import -- scripts/output/*.json
+```
+
+Uses `SUPABASE_SERVICE_ROLE_KEY` (server-only, bypasses RLS).
+
+### 5. Run the app
+
+```bash
+npx expo start
+```
+
+The app will now fetch questions from Supabase on first load per (subject, difficulty), cache them for 24h, and fall back to the bundled `data/questions.ts` if offline.
+
+## Development
+
+- **Type check:** `npx tsc --noEmit`
+- **Lint:** `npm run lint`
+- **Reset app state on device:** delete the app or clear storage from iOS / Android settings
+
+## Launch roadmap
+
+- [x] Week 1: Scaffold, screens, gameplay
+- [x] Week 2 (partial): Supabase schema, AI generator, cloud content
+- [ ] Week 2 (rest): Parent auth, child profiles, cloud progress sync
+- [ ] Week 3: Polish (Lottie celebrations, sounds), offline mode
+- [ ] Week 4: Parent dashboard, RevenueCat paywall
+- [ ] Week 5: Content expansion (2000+ questions)
+- [ ] Week 6: Privacy policy, COPPA review, app store assets
+- [ ] Week 7-8: TestFlight/internal beta, bug fixes, submit

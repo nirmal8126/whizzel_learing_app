@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "counting",
+    "q_text": "How many fingers are on one hand?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer_index": 2,
+    "explanation": "There are five fingers on one of your hands.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "addition",
+    "q_text": "If you have 2 red apples and 1 green apple, how many apples do you have in total?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer_index": 1,
+    "explanation": "Two red apples plus one green apple makes three apples altogether.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "shapes",
+    "q_text": "Which shape is round like a ball?",
+    "options": [
+      "Square",
+      "Triangle",
+      "Circle",
+      "Rectangle"
+    ],
+    "answer_index": 2,
+    "explanation": "A circle is a round shape, just like a ball.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "subtraction",
+    "q_text": "You have 4 cookies and you eat 1. How many cookies are left?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 2,
+    "explanation": "If you eat one cookie from four, you have three cookies left.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "patterns",
+    "q_text": "What number comes next in this pattern: 1, 2, 3, __?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer_index": 2,
+    "explanation": "The numbers are counting up by one, so 4 comes after 3.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "number_comparison",
+    "q_text": "Which number is smaller: 6 or 9?",
+    "options": [
+      "9",
+      "6",
+      "They are the same",
+      "Neither"
+    ],
+    "answer_index": 1,
+    "explanation": "The number 6 is smaller than the number 9.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "word_problem",
+    "q_text": "A cat had 3 kittens. Then it had 2 more. How many kittens did the cat have in all?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer_index": 2,
+    "explanation": "Three kittens plus two more kittens makes five kittens.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "geometry",
+    "q_text": "How many sides does a square have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer_index": 2,
+    "explanation": "A square is a shape that has four straight sides.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "ordinal_numbers",
+    "q_text": "If you are the first person in line, and one friend stands behind you, what position is your friend?",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "answer_index": 1,
+    "explanation": "If you are first, the person right behind you is second.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "time",
+    "q_text": "What day comes after Tuesday?",
+    "options": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "answer_index": 1,
+    "explanation": "Wednesday is the day that comes right after Tuesday.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "counting_backward",
+    "q_text": "If you count backwards from 10, what number comes right before 8?",
+    "options": [
+      "6",
+      "7",
+      "9",
+      "10"
+    ],
+    "answer_index": 2,
+    "explanation": "When counting backwards, 9 comes right before 8.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "addition",
+    "q_text": "You have 5 toy cars and get 3 more. How many toy cars do you have now?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer_index": 2,
+    "explanation": "Five toy cars plus three more toy cars makes eight toy cars.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "grouping",
+    "q_text": "Which number is missing in the sequence: 5, 6, __, 8, 9?",
+    "options": [
+      "4",
+      "7",
+      "10",
+      "11"
+    ],
+    "answer_index": 1,
+    "explanation": "The number 7 comes after 6 and before 8 in counting order.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "subtraction",
+    "q_text": "There are 7 birds on a fence. 3 birds fly away. How many birds are left?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer_index": 1,
+    "explanation": "If three birds fly away from seven, four birds are still on the fence.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "patterns_shape",
+    "q_text": "What shape comes next in this pattern: Star, Moon, Star, Moon, __?",
+    "options": [
+      "Sun",
+      "Moon",
+      "Star",
+      "Cloud"
+    ],
+    "answer_index": 2,
+    "explanation": "The pattern goes star, moon, star, moon, so a star comes next.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "position",
+    "q_text": "If a book is on top of the shelf, where is the book?",
+    "options": [
+      "Under the shelf",
+      "Next to the shelf",
+      "On the shelf",
+      "Behind the shelf"
+    ],
+    "answer_index": 2,
+    "explanation": "The words 'on top' mean something is resting above something else.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "number_recognition",
+    "q_text": "Which of these is the number seven?",
+    "options": [
+      "6",
+      "8",
+      "7",
+      "9"
+    ],
+    "answer_index": 2,
+    "explanation": "The number 7 looks like this.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "money_counting",
+    "q_text": "If you have 4 pennies and get 1 more penny, how many pennies do you have?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer_index": 2,
+    "explanation": "Four pennies plus one more penny equals five pennies.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "time",
+    "q_text": "When do we usually eat dinner?",
+    "options": [
+      "In the morning",
+      "At night",
+      "In the afternoon",
+      "Before breakfast"
+    ],
+    "answer_index": 1,
+    "explanation": "We eat dinner when it gets dark, which is at night.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "geometry_sides",
+    "q_text": "How many sides does a triangle have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "answer_index": 1,
+    "explanation": "A triangle is a shape with three straight sides.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "odd_one_out",
+    "q_text": "Which fruit is different from the others?",
+    "options": [
+      "Apple",
+      "Banana",
+      "Orange",
+      "Carrot"
+    ],
+    "answer_index": 3,
+    "explanation": "Carrot is a vegetable, while the others are fruits.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "counting",
+    "q_text": "Count the total number of legs on 2 dogs.",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer_index": 2,
+    "explanation": "Each dog has 4 legs, so 2 dogs have 4 + 4 = 8 legs.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "addition_missing",
+    "q_text": "What number do you add to 4 to get 6?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 1,
+    "explanation": "Four plus two equals six.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "subtraction_missing",
+    "q_text": "If you have 8 candies and eat some, and now you have 5, how many did you eat?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 2,
+    "explanation": "If you start with eight and end with five, you must have eaten three.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "comparison_size",
+    "q_text": "Which is usually smaller than a school bus?",
+    "options": [
+      "An airplane",
+      "A car",
+      "A train",
+      "A house"
+    ],
+    "answer_index": 1,
+    "explanation": "A car is smaller than a big school bus.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "patterns_color",
+    "q_text": "What comes next in the pattern: Red, Yellow, Red, Yellow, __?",
+    "options": [
+      "Green",
+      "Blue",
+      "Red",
+      "Yellow"
+    ],
+    "answer_index": 2,
+    "explanation": "The pattern repeats red, yellow, so red comes next.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "number_order",
+    "q_text": "Which list of numbers is in order from biggest to smallest?",
+    "options": [
+      "1, 2, 3",
+      "3, 1, 2",
+      "3, 2, 1",
+      "2, 3, 1"
+    ],
+    "answer_index": 2,
+    "explanation": "The numbers 3, 2, 1 are arranged from the biggest to the smallest.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "geometry_corners",
+    "q_text": "How many corners does a square have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "answer_index": 2,
+    "explanation": "A square is a shape with four corners.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "word_problem",
+    "q_text": "There are 9 balloons. If 4 balloons pop, how many are left?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer_index": 2,
+    "explanation": "Nine balloons minus four popped balloons leaves five balloons.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "easy",
+    "topic": "sequencing",
+    "q_text": "What do you usually do after playing outside?",
+    "options": [
+      "Go to sleep",
+      "Eat dinner",
+      "Take a bath",
+      "Go to school"
+    ],
+    "answer_index": 2,
+    "explanation": "After playing outside, it's a good idea to take a bath to get clean.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

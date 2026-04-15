@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "geography",
+    "q_text": "Which continent is known for having the highest average elevation and is home to the vast plateau of Tibet?",
+    "options": [
+      "Asia",
+      "Africa",
+      "South America",
+      "Europe"
+    ],
+    "answer_index": 0,
+    "explanation": "Asia has the highest average elevation due to its numerous high mountain ranges and plateaus.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "history",
+    "q_text": "The ancient city of Petra, famous for its rock-cut architecture, is located in which modern-day country?",
+    "options": [
+      "Egypt",
+      "Jordan",
+      "Greece",
+      "Turkey"
+    ],
+    "answer_index": 1,
+    "explanation": "Petra is an archaeological city in southern Jordan, carved into sandstone cliffs.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "world_cultures",
+    "q_text": "What is the name of the traditional Mexican musical ensemble typically consisting of trumpets, violins, and guitars?",
+    "options": [
+      "Samba band",
+      "Klezmer band",
+      "Mariachi band",
+      "Reggae band"
+    ],
+    "answer_index": 2,
+    "explanation": "Mariachi is a traditional Mexican music genre played by ensembles known as Mariachi bands.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "art",
+    "q_text": "Which of these famous Renaissance artists is known for painting the Sistine Chapel ceiling and sculpting 'David'?",
+    "options": [
+      "Raphael",
+      "Donatello",
+      "Leonardo da Vinci",
+      "Michelangelo"
+    ],
+    "answer_index": 3,
+    "explanation": "Michelangelo was a prominent Renaissance artist celebrated for his work on the Sistine Chapel and the 'David' statue.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "sports",
+    "q_text": "In which sport would you find terms like 'forehand,' 'backhand,' and 'serve'?",
+    "options": [
+      "Tennis",
+      "Badminton",
+      "Volleyball",
+      "Squash"
+    ],
+    "answer_index": 0,
+    "explanation": "These terms are fundamental strokes and actions used in the sport of tennis.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "geography",
+    "q_text": "The world's largest hot desert, the Sahara, stretches across a significant portion of which continent?",
+    "options": [
+      "Asia",
+      "Africa",
+      "Australia",
+      "North America"
+    ],
+    "answer_index": 1,
+    "explanation": "The Sahara Desert covers most of North Africa, making it the largest hot desert.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "ancient_history",
+    "q_text": "Which ancient civilization developed the concept of zero and the decimal number system?",
+    "options": [
+      "Ancient Egypt",
+      "Ancient Greece",
+      "Ancient India",
+      "Ancient China"
+    ],
+    "answer_index": 2,
+    "explanation": "Ancient Indian mathematicians made significant contributions, including the concept of zero and the decimal system.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "world_cultures",
+    "q_text": "In traditional Irish culture, what is a céilí?",
+    "options": [
+      "A type of traditional food",
+      "A traditional musical instrument",
+      "A traditional folk song",
+      "A social gathering with traditional music and dancing"
+    ],
+    "answer_index": 3,
+    "explanation": "A céilí is a social event featuring traditional Irish folk music and dancing.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "literature",
+    "q_text": "Which author is famous for writing 'Alice's Adventures in Wonderland'?",
+    "options": [
+      "Lewis Carroll",
+      "Beatrix Potter",
+      "Roald Dahl",
+      "J.K. Rowling"
+    ],
+    "answer_index": 0,
+    "explanation": "Lewis Carroll is the pen name of Charles Lutwidge Dodgson, the author of 'Alice's Adventures in Wonderland'.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "sports",
+    "q_text": "Which aquatic sport involves synchronized movements and elaborate routines performed in water?",
+    "options": [
+      "Water Polo",
+      "Artistic Swimming",
+      "Diving",
+      "Freestyle Swimming"
+    ],
+    "answer_index": 1,
+    "explanation": "Artistic swimming, formerly known as synchronized swimming, combines grace and athleticism in water.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "geography",
+    "q_text": "The Great Barrier Reef, the world's largest coral reef system, is located off the coast of which country?",
+    "options": [
+      "Mexico",
+      "Brazil",
+      "Australia",
+      "Indonesia"
+    ],
+    "answer_index": 2,
+    "explanation": "The Great Barrier Reef is a natural wonder situated off the northeastern coast of Australia.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "history",
+    "q_text": "What significant invention by Johannes Gutenberg revolutionized the spread of knowledge in Europe during the 15th century?",
+    "options": [
+      "The telescope",
+      "The steam engine",
+      "The compass",
+      "The movable type printing press"
+    ],
+    "answer_index": 3,
+    "explanation": "Gutenberg's movable type printing press made books more accessible and affordable.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "world_cultures",
+    "q_text": "Which country is famous for its annual cherry blossom (Sakura) season, celebrated with festivals and picnics?",
+    "options": [
+      "Japan",
+      "China",
+      "South Korea",
+      "Vietnam"
+    ],
+    "answer_index": 0,
+    "explanation": "Japan is renowned for its beautiful cherry blossom season, a symbol of spring and renewal.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "music",
+    "q_text": "Which musical instrument is played by striking keys that cause hammers to strike strings, producing sound?",
+    "options": [
+      "Violin",
+      "Piano",
+      "Guitar",
+      "Flute"
+    ],
+    "answer_index": 1,
+    "explanation": "The piano is a string instrument played using a keyboard to activate hammers that strike strings.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "sports",
+    "q_text": "In football (soccer), how many players are on each team on the field at the start of a match?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer_index": 2,
+    "explanation": "A standard football (soccer) team consists of 11 players on the field, including the goalkeeper.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "geography",
+    "q_text": "Which of these natural phenomena is a large, powerful ocean wave usually caused by underwater earthquakes or volcanic eruptions?",
+    "options": [
+      "Hurricane",
+      "Typhoon",
+      "Cyclone",
+      "Tsunami"
+    ],
+    "answer_index": 3,
+    "explanation": "A tsunami is a series of ocean waves caused by large-scale disturbances, most commonly underwater earthquakes.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "exploration",
+    "q_text": "Who was the first European explorer credited with circumnavigating the Earth, though he died during the voyage?",
+    "options": [
+      "Ferdinand Magellan",
+      "Christopher Columbus",
+      "Vasco da Gama",
+      "James Cook"
+    ],
+    "answer_index": 0,
+    "explanation": "Ferdinand Magellan led the first expedition to circumnavigate the Earth, completed by his crew after his death.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "world_cultures",
+    "q_text": "The ancient city of Machu Picchu, a UNESCO World Heritage site, is a significant cultural landmark of which civilization?",
+    "options": [
+      "Aztec",
+      "Inca",
+      "Maya",
+      "Olmec"
+    ],
+    "answer_index": 1,
+    "explanation": "Machu Picchu is an iconic citadel built by the Inca civilization in the Andes Mountains.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "architecture",
+    "q_text": "Which famous Roman structure was primarily used for gladiatorial contests and public spectacles?",
+    "options": [
+      "Pantheon",
+      "Roman Forum",
+      "Colosseum",
+      "Circus Maximus"
+    ],
+    "answer_index": 2,
+    "explanation": "The Colosseum is an ancient amphitheater in Rome, famous for hosting gladiatorial games and public events.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "sports_history",
+    "q_text": "The modern Olympic Games were revived in the late 19th century. In which city were the first modern Olympic Games held in 1896?",
+    "options": [
+      "Paris",
+      "London",
+      "Rome",
+      "Athens"
+    ],
+    "answer_index": 3,
+    "explanation": "The inaugural modern Olympic Games took place in Athens, Greece, in 1896.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "geography",
+    "q_text": "The Amazon River, known for its immense volume of water, primarily flows through which part of the world?",
+    "options": [
+      "South America",
+      "Africa",
+      "Asia",
+      "North America"
+    ],
+    "answer_index": 0,
+    "explanation": "The Amazon River is located in South America and is the largest river by discharge volume in the world.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "industrial_revolution",
+    "q_text": "Which invention by James Watt significantly improved the efficiency of engines and was crucial for the Industrial Revolution?",
+    "options": [
+      "Cotton Gin",
+      "Improved Steam Engine",
+      "Electric Generator",
+      "Telegraph"
+    ],
+    "answer_index": 1,
+    "explanation": "James Watt's improvements to the steam engine were fundamental to powering factories and transportation during the Industrial Revolution.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "world_cultures",
+    "q_text": "What is the name of the traditional flatbread, often baked in a tandoor oven, commonly eaten in South Asian cuisine?",
+    "options": [
+      "Tortilla",
+      "Pita",
+      "Naan",
+      "Focaccia"
+    ],
+    "answer_index": 2,
+    "explanation": "Naan is a leavened, oven-baked flatbread popular in Indian, Middle Eastern, and Central Asian cuisines.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "art_movements",
+    "q_text": "Which artistic movement, emerging in the early 20th century, is known for its geometric shapes and multiple perspectives within a single artwork?",
+    "options": [
+      "Impressionism",
+      "Surrealism",
+      "Renaissance",
+      "Cubism"
+    ],
+    "answer_index": 3,
+    "explanation": "Cubism, pioneered by Picasso and Braque, broke down objects into geometric forms viewed from several angles.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "sports",
+    "q_text": "In basketball, how many points are awarded for a successful shot made from outside the arc (the three-point line)?",
+    "options": [
+      "Three points",
+      "Two points",
+      "One point",
+      "Four points"
+    ],
+    "answer_index": 0,
+    "explanation": "Shots made from beyond the three-point arc are awarded three points in basketball.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "geography",
+    "q_text": "The city of Venice, famous for its canals and gondolas, is located in which European country?",
+    "options": [
+      "France",
+      "Italy",
+      "Spain",
+      "Germany"
+    ],
+    "answer_index": 1,
+    "explanation": "Venice is a major city in northeastern Italy, renowned for its waterways.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "ancient_history",
+    "q_text": "The ancient Olympic Games, featuring athletic and combat sports, originated in which ancient civilization?",
+    "options": [
+      "Rome",
+      "Egypt",
+      "Greece",
+      "China"
+    ],
+    "answer_index": 2,
+    "explanation": "The ancient Olympic Games were first held in Olympia, Greece, as a religious and athletic festival.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "world_cultures",
+    "q_text": "What traditional Japanese martial art emphasizes throwing, grappling, and joint locks rather than striking?",
+    "options": [
+      "Karate",
+      "Taekwondo",
+      "Kendo",
+      "Judo"
+    ],
+    "answer_index": 3,
+    "explanation": "Judo is a Japanese martial art and Olympic sport focusing on throws and holds.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "dance",
+    "q_text": "Which classical dance form is characterized by graceful, precise movements, often performed in tutus and pointe shoes?",
+    "options": [
+      "Ballet",
+      "Tap Dance",
+      "Hip-hop",
+      "Salsa"
+    ],
+    "answer_index": 0,
+    "explanation": "Ballet is a highly technical and elegant classical dance form with distinct costumes and footwear.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "gk",
+    "difficulty": "hard",
+    "topic": "sports",
+    "q_text": "Which major international cycling race, famous for its stages through the French countryside, is held annually?",
+    "options": [
+      "Giro d'Italia",
+      "Tour de France",
+      "Vuelta a España",
+      "Paris-Roubaix"
+    ],
+    "answer_index": 1,
+    "explanation": "The Tour de France is the most prestigious and well-known multi-stage bicycle race in the world.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

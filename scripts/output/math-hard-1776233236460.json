@@ -1,0 +1,722 @@
+[
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "order_of_operations",
+    "q_text": "Evaluate the following expression: 24 \b (3 \b 2) + 5 \b 7.",
+    "options": [
+      "2",
+      "6",
+      "4",
+      "10"
+    ],
+    "answer_index": 0,
+    "explanation": "Following the order of operations (PEMDAS/BODMAS), first calculate inside the parentheses, then division, then addition and subtraction from left to right.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "percentages_money",
+    "q_text": "A laptop originally priced at $800 is on sale for 20% off. If sales tax of 5% is applied to the discounted price, what is the final cost of the laptop?",
+    "options": [
+      "$640.00",
+      "$672.00",
+      "$720.00",
+      "$680.00"
+    ],
+    "answer_index": 1,
+    "explanation": "First, calculate the 20% discount from $800 to find the sale price, then add 5% sales tax to that discounted price.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "area_geometry",
+    "q_text": "A rectangular park measures 30 meters by 20 meters. A walking path 1 meter wide is built around the outside of the park. What is the total area of the walking path?",
+    "options": [
+      "104 square meters",
+      "144 square meters",
+      "600 square meters",
+      "200 square meters"
+    ],
+    "answer_index": 0,
+    "explanation": "Calculate the area of the larger rectangle (park plus path) and subtract the area of the park to find the path's area.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "number_patterns",
+    "q_text": "What is the next number in the sequence: 5, 12, 26, 54, ___?",
+    "options": [
+      "108",
+      "100",
+      "110",
+      "109"
+    ],
+    "answer_index": 2,
+    "explanation": "Each number in the sequence is found by multiplying the previous number by 2 and then adding 2.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "time_speed_distance",
+    "q_text": "A car travels at an average speed of 80 kilometers per hour. If it travels for 3 hours and 45 minutes, what total distance has it covered?",
+    "options": [
+      "240 km",
+      "280 km",
+      "300 km",
+      "320 km"
+    ],
+    "answer_index": 2,
+    "explanation": "Convert the total time to hours (3.75 hours) and then multiply by the average speed to find the distance.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "fractions_decimals",
+    "q_text": "Which of the following values is equivalent to 7/8?",
+    "options": [
+      "0.75",
+      "0.875",
+      "0.78",
+      "0.8"
+    ],
+    "answer_index": 1,
+    "explanation": "To convert a fraction to a decimal, divide the numerator by the denominator.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "simple_algebra",
+    "q_text": "If 4x - 11 = 29, what is the value of x?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer_index": 2,
+    "explanation": "Add 11 to both sides of the equation, then divide by 4 to solve for x.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "angles_geometry",
+    "q_text": "A right angle is divided into two smaller angles. If one angle measures 37 degrees, what is the measure of the other angle?",
+    "options": [
+      "53 degrees",
+      "63 degrees",
+      "143 degrees",
+      "180 degrees"
+    ],
+    "answer_index": 0,
+    "explanation": "A right angle measures 90 degrees, so subtract the known angle from 90 to find the other angle.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "probability",
+    "q_text": "A spinner has 10 equally sized sections numbered 1 to 10. What is the probability of landing on an even number?",
+    "options": [
+      "1/10",
+      "1/5",
+      "1/2",
+      "3/5"
+    ],
+    "answer_index": 2,
+    "explanation": "There are 5 even numbers (2, 4, 6, 8, 10) out of 10 total sections, making the probability 5/10, or 1/2.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "prime_numbers",
+    "q_text": "Which of the following numbers is a prime number?",
+    "options": [
+      "39",
+      "51",
+      "57",
+      "61"
+    ],
+    "answer_index": 3,
+    "explanation": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "volume_geometry",
+    "q_text": "A rectangular prism has a length of 7 cm, a width of 4 cm, and a height of 3 cm. What is its volume?",
+    "options": [
+      "28 cubic cm",
+      "42 cubic cm",
+      "84 cubic cm",
+      "14 cubic cm"
+    ],
+    "answer_index": 2,
+    "explanation": "The volume of a rectangular prism is calculated by multiplying its length, width, and height.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "deductive_reasoning",
+    "q_text": "All squares are rectangles. All rectangles have four right angles. Based on these statements, what can be concluded about squares?",
+    "options": [
+      "Squares have only two right angles.",
+      "Squares are not rectangles.",
+      "Squares have four right angles.",
+      "Squares are always larger than rectangles."
+    ],
+    "answer_index": 2,
+    "explanation": "Since all squares are rectangles and all rectangles have four right angles, it logically follows that all squares must also have four right angles.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "unit_conversion",
+    "q_text": "How many millimeters are in 3.5 meters?",
+    "options": [
+      "350 mm",
+      "3500 mm",
+      "35000 mm",
+      "35 mm"
+    ],
+    "answer_index": 1,
+    "explanation": "There are 1000 millimeters in 1 meter, so multiply 3.5 by 1000.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "ratio_proportion",
+    "q_text": "The ratio of red marbles to blue marbles in a bag is 3:5. If there are 15 red marbles, how many blue marbles are there?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "45"
+    ],
+    "answer_index": 1,
+    "explanation": "Set up a proportion where 3/5 equals 15/x and solve for x.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "coordinate_geometry",
+    "q_text": "Which of the following points is located in the second quadrant of a Cartesian coordinate system?",
+    "options": [
+      "(3, -2)",
+      "(-4, 5)",
+      "(1, 6)",
+      "(-7, -1)"
+    ],
+    "answer_index": 1,
+    "explanation": "The second quadrant is where the x-coordinate is negative and the y-coordinate is positive.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "factors_multiples",
+    "q_text": "What is the least common multiple (LCM) of 12 and 18?",
+    "options": [
+      "6",
+      "36",
+      "72",
+      "108"
+    ],
+    "answer_index": 1,
+    "explanation": "The least common multiple is the smallest positive integer that is a multiple of both 12 and 18.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "geometry_perimeter",
+    "q_text": "A square garden has a perimeter of 48 meters. What is the length of one side of the garden?",
+    "options": [
+      "12 meters",
+      "16 meters",
+      "24 meters",
+      "8 meters"
+    ],
+    "answer_index": 0,
+    "explanation": "The perimeter of a square is 4 times the length of one side, so divide the perimeter by 4.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "logical_reasoning",
+    "q_text": "If 'All dogs are mammals' is true, which of the following statements must also be true?",
+    "options": [
+      "All mammals are dogs.",
+      "If an animal is a mammal, then it is a dog.",
+      "If an animal is not a mammal, then it is not a dog.",
+      "Some mammals are not dogs."
+    ],
+    "answer_index": 2,
+    "explanation": "If all dogs are mammals, then an animal that is not a mammal cannot possibly be a dog.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "arithmetic_word_problem",
+    "q_text": "A baker uses 2.5 kg of flour to make 5 loaves of bread. How much flour is needed to make 12 loaves of bread?",
+    "options": [
+      "5 kg",
+      "6 kg",
+      "7.5 kg",
+      "8 kg"
+    ],
+    "answer_index": 1,
+    "explanation": "First, find out how much flour is needed per loaf, then multiply that amount by 12.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "geometry_circles",
+    "q_text": "If the radius of a circle is 7 cm, what is its approximate circumference? (Use \b \b 3.14)",
+    "options": [
+      "21.98 cm",
+      "43.96 cm",
+      "153.86 cm",
+      "14 cm"
+    ],
+    "answer_index": 1,
+    "explanation": "The circumference of a circle is calculated using the formula C = 2\br, where r is the radius.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "algebra_expressions",
+    "q_text": "Which expression represents 'the sum of three times a number x and five'?",
+    "options": [
+      "3(x + 5)",
+      "3x \b 5",
+      "3x + 5",
+      "x + 3 + 5"
+    ],
+    "answer_index": 2,
+    "explanation": "Three times a number x is 3x, and 'the sum' means to add five to that.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "number_theory",
+    "q_text": "What is the greatest common factor (GCF) of 24 and 36?",
+    "options": [
+      "6",
+      "12",
+      "4",
+      "18"
+    ],
+    "answer_index": 1,
+    "explanation": "The greatest common factor is the largest number that divides into both 24 and 36 without leaving a remainder.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "measurement_time",
+    "q_text": "A movie starts at 7:15 PM and has a running time of 2 hours and 35 minutes. What time will the movie end?",
+    "options": [
+      "9:50 PM",
+      "9:40 PM",
+      "10:00 PM",
+      "9:55 PM"
+    ],
+    "answer_index": 0,
+    "explanation": "Add 2 hours to 7:15 PM to get 9:15 PM, then add 35 minutes to find the exact end time.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "fractions_operations",
+    "q_text": "Calculate: 3/4 + 1/3.",
+    "options": [
+      "4/7",
+      "13/12",
+      "1",
+      "7/12"
+    ],
+    "answer_index": 1,
+    "explanation": "Find a common denominator, convert the fractions, and then add the numerators.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "geometry_transformations",
+    "q_text": "If a square is rotated 90 degrees clockwise about its center, which of its properties changes?",
+    "options": [
+      "Its side length",
+      "Its area",
+      "Its orientation",
+      "Its number of vertices"
+    ],
+    "answer_index": 2,
+    "explanation": "Rotation changes the position and direction a shape is facing, which is its orientation, but not its size, shape, or number of sides.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "logical_deduction",
+    "q_text": "Sarah is taller than Mark. Mark is taller than Lisa. Who is the shortest?",
+    "options": [
+      "Sarah",
+      "Mark",
+      "Lisa",
+      "Cannot be determined"
+    ],
+    "answer_index": 2,
+    "explanation": "From the given statements, Sarah > Mark and Mark > Lisa, which implies Lisa is the shortest.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "statistics_range",
+    "q_text": "What is the range of the following set of numbers: 15, 22, 10, 30, 18, 25?",
+    "options": [
+      "15",
+      "20",
+      "30",
+      "22"
+    ],
+    "answer_index": 1,
+    "explanation": "The range is the difference between the highest and lowest values in a data set.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "algebra_word_problem",
+    "q_text": "A farmer has chickens and cows. If there are a total of 20 heads and 56 legs, how many chickens does the farmer have?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "4"
+    ],
+    "answer_index": 1,
+    "explanation": "Set up a system of equations where 'c' is chickens and 'v' is cows: c + v = 20 (heads) and 2c + 4v = 56 (legs), then solve for c.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "number_properties",
+    "q_text": "Which of the following numbers is a perfect square?",
+    "options": [
+      "32",
+      "49",
+      "60",
+      "75"
+    ],
+    "answer_index": 1,
+    "explanation": "A perfect square is an integer that can be expressed as the product of two equal integers.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "geometry_types_of_triangles",
+    "q_text": "A triangle has angles measuring 45 degrees, 45 degrees, and 90 degrees. What type of triangle is it?",
+    "options": [
+      "Equilateral",
+      "Scalene",
+      "Isosceles right",
+      "Obtuse"
+    ],
+    "answer_index": 2,
+    "explanation": "Since two angles are equal (45 degrees), it is isosceles, and since one angle is 90 degrees, it is a right triangle.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "fractions_comparison",
+    "q_text": "Which fraction is the largest?",
+    "options": [
+      "1/2",
+      "3/5",
+      "2/3",
+      "5/8"
+    ],
+    "answer_index": 2,
+    "explanation": "Convert the fractions to decimals or a common denominator to compare their values.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "arithmetic_decimals",
+    "q_text": "Calculate: 12.5 \b 0.8.",
+    "options": [
+      "10",
+      "100",
+      "1.0",
+      "10.4"
+    ],
+    "answer_index": 0,
+    "explanation": "Multiply the numbers as if they were whole numbers, then place the decimal point based on the total number of decimal places in the factors.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "geometry_3d_shapes",
+    "q_text": "A sphere has a radius of 3 cm. What is its volume? (Use \b \b 3.14, Volume = (4/3)\br\b)",
+    "options": [
+      "113.04 cubic cm",
+      "37.68 cubic cm",
+      "84.78 cubic cm",
+      "28.26 cubic cm"
+    ],
+    "answer_index": 0,
+    "explanation": "Use the formula for the volume of a sphere: (4/3) times pi times the radius cubed.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "word_problem_multi_step",
+    "q_text": "A school bus can hold 45 students. If there are 250 students going on a field trip, how many buses are needed?",
+    "options": [
+      "5 buses",
+      "6 buses",
+      "7 buses",
+      "5.5 buses"
+    ],
+    "answer_index": 1,
+    "explanation": "Divide the total number of students by the bus capacity and round up to the next whole number, as a partial bus still requires a full bus.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "algebra_substitution",
+    "q_text": "If a = 5 and b = 3, what is the value of 2a + 3b - ab?",
+    "options": [
+      "1",
+      "4",
+      "7",
+      "2"
+    ],
+    "answer_index": 1,
+    "explanation": "Substitute the given values for 'a' and 'b' into the expression and then perform the calculations following the order of operations.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "math",
+    "difficulty": "hard",
+    "topic": "logical_analogies",
+    "q_text": "Square is to Cube as Circle is to ____?",
+    "options": [
+      "Cylinder",
+      "Sphere",
+      "Cone",
+      "Oval"
+    ],
+    "answer_index": 1,
+    "explanation": "A cube is the 3D equivalent of a square, and a sphere is the 3D equivalent of a circle.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

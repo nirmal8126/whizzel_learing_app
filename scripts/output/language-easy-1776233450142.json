@@ -1,0 +1,582 @@
+[
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "nouns",
+    "q_text": "Which word is a person?",
+    "options": [
+      "teacher",
+      "apple",
+      "table",
+      "run"
+    ],
+    "answer_index": 0,
+    "explanation": "A teacher is a person who helps you learn.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "nouns",
+    "q_text": "Which word is a thing?",
+    "options": [
+      "sing",
+      "chair",
+      "happy",
+      "jump"
+    ],
+    "answer_index": 1,
+    "explanation": "A chair is a thing you can sit on.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "verbs",
+    "q_text": "Which word tells you what someone can DO?",
+    "options": [
+      "blue",
+      "cat",
+      "eat",
+      "slow"
+    ],
+    "answer_index": 2,
+    "explanation": "\"Eat\" is an action word, like when you eat your food.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "adjectives",
+    "q_text": "Which word describes something?",
+    "options": [
+      "run",
+      "tree",
+      "sleep",
+      "fast"
+    ],
+    "answer_index": 3,
+    "explanation": "\"Fast\" tells you how something moves.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "plurals",
+    "q_text": "What is the plural of \"cat\"?",
+    "options": [
+      "cats",
+      "catz",
+      "cat's",
+      "caty"
+    ],
+    "answer_index": 0,
+    "explanation": "\"Cats\" means more than one cat.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "singular",
+    "q_text": "Which word means only one?",
+    "options": [
+      "dogs",
+      "flower",
+      "hats",
+      "books"
+    ],
+    "answer_index": 1,
+    "explanation": "\"Flower\" means just one flower.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "spelling",
+    "q_text": "Which letter is missing in the word \"b_ll\"?",
+    "options": [
+      "e",
+      "i",
+      "a",
+      "u"
+    ],
+    "answer_index": 2,
+    "explanation": "The word \"ball\" has the letter \"a\" in the middle.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "spelling",
+    "q_text": "Which letter completes the word \"d_g\"?",
+    "options": [
+      "a",
+      "e",
+      "u",
+      "o"
+    ],
+    "answer_index": 3,
+    "explanation": "The word \"dog\" has the letter \"o\" in the middle.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "rhyming",
+    "q_text": "Which word rhymes with \"cat\"?",
+    "options": [
+      "hat",
+      "dog",
+      "pig",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explanation": "\"Cat\" and \"hat\" sound the same at the end.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "rhyming",
+    "q_text": "Which word rhymes with \"moon\"?",
+    "options": [
+      "sun",
+      "spoon",
+      "star",
+      "sky"
+    ],
+    "answer_index": 1,
+    "explanation": "\"Moon\" and \"spoon\" sound the same at the end.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "synonyms",
+    "q_text": "Which word means the same as \"big\"?",
+    "options": [
+      "small",
+      "tiny",
+      "huge",
+      "little"
+    ],
+    "answer_index": 2,
+    "explanation": "\"Huge\" also means very big.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "synonyms",
+    "q_text": "Which word means the same as \"happy\"?",
+    "options": [
+      "sad",
+      "mad",
+      "sleepy",
+      "glad"
+    ],
+    "answer_index": 3,
+    "explanation": "\"Glad\" means feeling happy.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "antonyms",
+    "q_text": "Which word means the opposite of \"hot\"?",
+    "options": [
+      "cold",
+      "warm",
+      "sunny",
+      "fire"
+    ],
+    "answer_index": 0,
+    "explanation": "\"Cold\" is the opposite of hot.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "antonyms",
+    "q_text": "Which word means the opposite of \"up\"?",
+    "options": [
+      "over",
+      "down",
+      "high",
+      "top"
+    ],
+    "answer_index": 1,
+    "explanation": "\"Down\" is the opposite of up.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "prepositions",
+    "q_text": "The apple is ______ the table.",
+    "options": [
+      "fly",
+      "eat",
+      "under",
+      "red"
+    ],
+    "answer_index": 2,
+    "explanation": "\"Under\" tells you where the apple is.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "prepositions",
+    "q_text": "The dog is ______ the bed.",
+    "options": [
+      "jump",
+      "sleepy",
+      "bark",
+      "in"
+    ],
+    "answer_index": 3,
+    "explanation": "\"In\" tells you the dog is inside the bed.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "pronouns",
+    "q_text": "My mom is nice. ______ gives me hugs.",
+    "options": [
+      "She",
+      "He",
+      "It",
+      "They"
+    ],
+    "answer_index": 0,
+    "explanation": "\"She\" is the word we use for a girl or woman.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "pronouns",
+    "q_text": "The ball is round. ______ rolls fast.",
+    "options": [
+      "He",
+      "It",
+      "She",
+      "They"
+    ],
+    "answer_index": 1,
+    "explanation": "\"It\" is the word we use for a thing or animal.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "capitalization",
+    "q_text": "Which sentence starts correctly?",
+    "options": [
+      "the dog barks.",
+      "Dog barks the.",
+      "barks the dog.",
+      "The dog barks."
+    ],
+    "answer_index": 3,
+    "explanation": "Sentences always start with a big letter.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "punctuation",
+    "q_text": "What goes at the end of this sentence: \"I like to play\"",
+    "options": [
+      ".",
+      "!",
+      "?",
+      ","
+    ],
+    "answer_index": 0,
+    "explanation": "A period goes at the end of a sentence that tells you something.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "vocabulary_animals",
+    "q_text": "Which one is an animal?",
+    "options": [
+      "banana",
+      "lion",
+      "car",
+      "shoe"
+    ],
+    "answer_index": 1,
+    "explanation": "A lion is a big animal.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "vocabulary_fruits",
+    "q_text": "Which one is a fruit?",
+    "options": [
+      "bread",
+      "milk",
+      "apple",
+      "cheese"
+    ],
+    "answer_index": 2,
+    "explanation": "An apple is a yummy fruit.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "homophones",
+    "q_text": "Which word sounds like \"sun\"?",
+    "options": [
+      "moon",
+      "star",
+      "sky",
+      "son"
+    ],
+    "answer_index": 3,
+    "explanation": "\"Son\" and \"sun\" sound the same but mean different things.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "homophones",
+    "q_text": "Which word sounds like \"to\"?",
+    "options": [
+      "too",
+      "from",
+      "at",
+      "with"
+    ],
+    "answer_index": 0,
+    "explanation": "\"To\" and \"too\" sound the same but mean different things.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "spelling",
+    "q_text": "How do you spell the word for a color like grass?",
+    "options": [
+      "gren",
+      "green",
+      "grean",
+      "grane"
+    ],
+    "answer_index": 1,
+    "explanation": "\"Green\" is spelled G-R-E-E-N.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "adjectives",
+    "q_text": "The elephant is a ______ animal.",
+    "options": [
+      "small",
+      "tiny",
+      "huge",
+      "little"
+    ],
+    "answer_index": 2,
+    "explanation": "\"Huge\" means very big, just like an elephant.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "verbs_past_tense",
+    "q_text": "What is the past tense of \"walk\"?",
+    "options": [
+      "walks",
+      "walking",
+      "walk",
+      "walked"
+    ],
+    "answer_index": 3,
+    "explanation": "\"Walked\" means it happened before now.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "opposites",
+    "q_text": "Which word is the opposite of \"day\"?",
+    "options": [
+      "night",
+      "morning",
+      "sun",
+      "light"
+    ],
+    "answer_index": 0,
+    "explanation": "\"Night\" is when it is dark, and day is when it is light.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "easy",
+    "topic": "rhyming",
+    "q_text": "Which word rhymes with \"bear\"?",
+    "options": [
+      "bird",
+      "chair",
+      "tree",
+      "fish"
+    ],
+    "answer_index": 1,
+    "explanation": "\"Bear\" and \"chair\" sound the same at the end.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

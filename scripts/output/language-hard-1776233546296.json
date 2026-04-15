@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "literary_device",
+    "q_text": "“The librarian was a walking encyclopedia of knowledge.” What literary device is used in this sentence?",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Hyperbole"
+    ],
+    "answer_index": 1,
+    "explanation": "A metaphor directly compares two unlike things by stating one IS the other.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "synonyms",
+    "q_text": "Which word is the best synonym for “ephemeral”?",
+    "options": [
+      "Permanent",
+      "Lasting",
+      "Fleeting",
+      "Eternal"
+    ],
+    "answer_index": 2,
+    "explanation": "Ephemeral means lasting for a very short time, just like fleeting.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_agreement",
+    "q_text": "Choose the correct verb to complete the sentence: “Neither the students nor the teacher _______ ready for the surprise pop quiz.”",
+    "options": [
+      "were",
+      "are",
+      "was",
+      "be"
+    ],
+    "answer_index": 2,
+    "explanation": "When 'neither...nor' connects subjects, the verb agrees with the subject closest to it.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "spelling_homophones",
+    "q_text": "Which sentence uses the correct spelling of the homophone?",
+    "options": [
+      "The principle of the school is very kind.",
+      "The stationery store sells pens and paper.",
+      "He had to bare the weight of the heavy box.",
+      "They're going to loose the game if they don't try harder."
+    ],
+    "answer_index": 1,
+    "explanation": "'Stationery' refers to writing materials, while 'stationary' means not moving.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "literary_device",
+    "q_text": "Identify the literary device in the phrase: “Peter Piper picked a peck of pickled peppers.”",
+    "options": [
+      "Onomatopoeia",
+      "Personification",
+      "Alliteration",
+      "Hyperbole"
+    ],
+    "answer_index": 2,
+    "explanation": "Alliteration is the repetition of the same beginning consonant sound in words close together.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "vocabulary_context",
+    "q_text": "In the sentence, “The antique clock had a peculiar chime that echoed through the empty house,” what does “peculiar” most closely mean?",
+    "options": [
+      "Familiar",
+      "Ordinary",
+      "Unique",
+      "Loud"
+    ],
+    "answer_index": 2,
+    "explanation": "Peculiar describes something that is unusual or distinctive, making 'unique' the closest meaning.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_pronouns",
+    "q_text": "Choose the correct pronoun for the sentence: “Between you and ______, I think the project will be a great success.”",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "we"
+    ],
+    "answer_index": 1,
+    "explanation": "After a preposition like 'between,' an objective pronoun like 'me' is used.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "spelling_difficult",
+    "q_text": "Which of the following words is spelled correctly?",
+    "options": [
+      "recieve",
+      "believe",
+      "decieve",
+      "acheive"
+    ],
+    "answer_index": 1,
+    "explanation": "The correct spelling is 'believe,' following the 'i before e' rule.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "literary_device",
+    "q_text": "Which sentence is an example of personification?",
+    "options": [
+      "The wind howled its mournful song.",
+      "The cloud looked like a fluffy sheep.",
+      "He was as brave as a lion.",
+      "The test was a nightmare."
+    ],
+    "answer_index": 0,
+    "explanation": "Personification gives human qualities or actions to inanimate objects or animals.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "antonyms",
+    "q_text": "What is the antonym of “benevolent”?",
+    "options": [
+      "Generous",
+      "Kind",
+      "Malicious",
+      "Helpful"
+    ],
+    "answer_index": 2,
+    "explanation": "Benevolent means kind or well-meaning, so its opposite is malicious, meaning intending to do harm.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_structure",
+    "q_text": "Which of the following is a complex sentence?",
+    "options": [
+      "I went to the store, and I bought some milk.",
+      "Although it was raining, we decided to go for a walk.",
+      "She sings beautifully.",
+      "He studied hard, so he passed the exam."
+    ],
+    "answer_index": 1,
+    "explanation": "A complex sentence contains an independent clause and at least one dependent clause.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "spelling_silent_letters",
+    "q_text": "In which word is the letter 'k' silent?",
+    "options": [
+      "Kettle",
+      "Knight",
+      "Kite",
+      "King"
+    ],
+    "answer_index": 1,
+    "explanation": "In the word 'knight,' the 'k' at the beginning is not pronounced.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "idioms",
+    "q_text": "What does the idiom “to bite the bullet” mean?",
+    "options": [
+      "To eat something quickly",
+      "To avoid a difficult situation",
+      "To face a difficult situation with courage",
+      "To complain loudly"
+    ],
+    "answer_index": 2,
+    "explanation": "To bite the bullet means to endure a difficult or unpleasant situation.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_tenses",
+    "q_text": "Choose the correct past perfect tense to complete the sentence: “By the time we arrived, they _______ already _______ dinner.”",
+    "options": [
+      "have eaten",
+      "had eaten",
+      "were eating",
+      "ate"
+    ],
+    "answer_index": 1,
+    "explanation": "The past perfect tense 'had eaten' describes an action completed before another action in the past.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "literary_device",
+    "q_text": "“I'm so hungry I could eat a whole horse!” is an example of what literary device?",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Hyperbole",
+      "Understatement"
+    ],
+    "answer_index": 2,
+    "explanation": "Hyperbole is an extreme exaggeration used for emphasis or effect.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "vocabulary_roots",
+    "q_text": "The word “benevolent” contains the Latin root “bene,” meaning good. Which of the following words does NOT share this root's meaning?",
+    "options": [
+      "Benefit",
+      "Benign",
+      "Malice",
+      "Benediction"
+    ],
+    "answer_index": 2,
+    "explanation": "'Malice' comes from the Latin root 'mal,' meaning bad, while 'bene' means good.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_voice",
+    "q_text": "Which sentence is written in the passive voice?",
+    "options": [
+      "The chef cooked a delicious meal.",
+      "A delicious meal was cooked by the chef.",
+      "The chef is cooking a delicious meal.",
+      "The chef will cook a delicious meal."
+    ],
+    "answer_index": 1,
+    "explanation": "In the passive voice, the subject receives the action of the verb, often using 'by' to indicate the doer.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "spelling_plurals",
+    "q_text": "What is the correct plural form of the word “cactus”?",
+    "options": [
+      "Cactus'",
+      "Cactuses",
+      "Cacti",
+      "Cactii"
+    ],
+    "answer_index": 2,
+    "explanation": "Both 'cacti' and 'cactuses' are correct, but 'cacti' is the more common Latin plural.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "figurative_language",
+    "q_text": "What does the phrase “break a leg” mean in a theatrical context?",
+    "options": [
+      "To literally injure oneself",
+      "To perform badly",
+      "To wish someone good luck",
+      "To finish a performance quickly"
+    ],
+    "answer_index": 2,
+    "explanation": "'Break a leg' is an idiom used to wish good luck to a performer before a show.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_punctuation",
+    "q_text": "Choose the sentence with correct comma usage.",
+    "options": [
+      "The tall, dark, mysterious man entered the room.",
+      "The tall dark mysterious man entered the room.",
+      "The tall, dark mysterious man entered the room.",
+      "The tall dark, mysterious man entered the room."
+    ],
+    "answer_index": 0,
+    "explanation": "Commas are used to separate adjectives that equally modify the same noun.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "literary_device",
+    "q_text": "“Her smile was as bright as the morning sun.” This sentence contains an example of a:",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Personification",
+      "Irony"
+    ],
+    "answer_index": 1,
+    "explanation": "A simile compares two different things using 'like' or 'as'.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "synonyms",
+    "q_text": "Which word is the best synonym for “ubiquitous”?",
+    "options": [
+      "Scarce",
+      "Rare",
+      "Omnipresent",
+      "Hidden"
+    ],
+    "answer_index": 2,
+    "explanation": "Ubiquitous means appearing or found everywhere, making 'omnipresent' its best synonym.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_conditionals",
+    "q_text": "Complete the conditional sentence: “If she _______ harder, she _______ passed the exam.”",
+    "options": [
+      "had studied, would have",
+      "studied, will have",
+      "studies, would have",
+      "had studied, would pass"
+    ],
+    "answer_index": 0,
+    "explanation": "This is a third conditional sentence, used to talk about hypothetical situations in the past.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "spelling_suffixes",
+    "q_text": "Which word is spelled correctly with its suffix?",
+    "options": [
+      "arguabley",
+      "truely",
+      "committment",
+      "definitely"
+    ],
+    "answer_index": 3,
+    "explanation": "The correct spelling is 'definitely,' maintaining the 'e' before adding '-ly'.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "literary_device",
+    "q_text": "Which of the following phrases is an oxymoron?",
+    "options": [
+      "Jumbo shrimp",
+      "Pretty flower",
+      "Silent night",
+      "Running water"
+    ],
+    "answer_index": 0,
+    "explanation": "An oxymoron combines two words with opposite meanings, like 'jumbo' (large) and 'shrimp' (small).",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "vocabulary_context",
+    "q_text": "In the sentence, “The antiquated machinery slowly ground to a halt,” what does “antiquated” suggest about the machinery?",
+    "options": [
+      "It is brand new",
+      "It is very efficient",
+      "It is old and outdated",
+      "It is difficult to repair"
+    ],
+    "answer_index": 2,
+    "explanation": "Antiquated describes something that is very old and no longer modern or useful.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_modifiers",
+    "q_text": "Identify the sentence with a misplaced modifier.",
+    "options": [
+      "I saw a dog walking down the street with a leash.",
+      "Walking down the street, I saw a dog with a leash.",
+      "With a leash, I saw a dog walking down the street.",
+      "I saw a dog with a leash walking down the street."
+    ],
+    "answer_index": 0,
+    "explanation": "The phrase 'with a leash' is misplaced, making it sound like the street has the leash instead of the dog.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "spelling_ie_ei",
+    "q_text": "Which word is spelled incorrectly?",
+    "options": [
+      "Receive",
+      "Neighbor",
+      "Feign",
+      "Wierd"
+    ],
+    "answer_index": 3,
+    "explanation": "The correct spelling is 'weird,' which is an exception to the 'i before e except after c' rule.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "vocabulary_connotation",
+    "q_text": "Which word has a negative connotation?",
+    "options": [
+      "Confident",
+      "Arrogant",
+      "Assertive",
+      "Self-assured"
+    ],
+    "answer_index": 1,
+    "explanation": "'Arrogant' carries a negative connotation, suggesting an excessive and unpleasant sense of superiority.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "hard",
+    "topic": "grammar_punctuation",
+    "q_text": "Choose the sentence that correctly uses a semicolon.",
+    "options": [
+      "The cat was tired; however, it kept chasing the laser pointer.",
+      "The cat was tired, however, it kept chasing the laser pointer.",
+      "The cat was tired; it kept chasing the laser pointer.",
+      "The cat was tired; however; it kept chasing the laser pointer."
+    ],
+    "answer_index": 0,
+    "explanation": "A semicolon correctly joins two independent clauses when a conjunctive adverb like 'however' is used, followed by a comma.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

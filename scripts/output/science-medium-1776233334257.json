@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "plant_parts",
+    "q_text": "Which part of a plant takes in sunlight to make food?",
+    "options": [
+      "Roots",
+      "Stem",
+      "Leaves",
+      "Flower"
+    ],
+    "answer_index": 2,
+    "explanation": "Leaves contain chlorophyll, which captures sunlight for photosynthesis.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "solar_system",
+    "q_text": "Which planet is known as the \"Red Planet\"?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "answer_index": 1,
+    "explanation": "Mars gets its reddish color from iron oxide dust on its surface.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "weather",
+    "q_text": "What do we call water that falls from clouds as rain, snow, or hail?",
+    "options": [
+      "Evaporation",
+      "Condensation",
+      "Precipitation",
+      "Collection"
+    ],
+    "answer_index": 2,
+    "explanation": "Precipitation is any form of water that falls from the atmosphere to the Earth's surface.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "states_of_matter",
+    "q_text": "When ice melts, it changes from a solid to what state of matter?",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Plasma",
+      "Vapor"
+    ],
+    "answer_index": 1,
+    "explanation": "Melting is the process where a solid turns into a liquid.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "animal_habitats",
+    "q_text": "Which of these animals would you most likely find living in a desert?",
+    "options": [
+      "Polar bear",
+      "Penguin",
+      "Camel",
+      "Dolphin"
+    ],
+    "answer_index": 2,
+    "explanation": "Camels are well-adapted to survive in hot, dry desert environments.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "material_properties",
+    "q_text": "Which of these materials is a good conductor of electricity?",
+    "options": [
+      "Plastic",
+      "Wood",
+      "Glass",
+      "Copper"
+    ],
+    "answer_index": 3,
+    "explanation": "Copper is a metal that allows electricity to flow through it easily.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "rocks",
+    "q_text": "What type of rock is formed from the cooling and hardening of molten lava?",
+    "options": [
+      "Sedimentary",
+      "Metamorphic",
+      "Igneous",
+      "Mineral"
+    ],
+    "answer_index": 2,
+    "explanation": "Igneous rocks are formed when magma or lava cools and solidifies.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "human_body",
+    "q_text": "Which organ is responsible for pumping blood throughout your body?",
+    "options": [
+      "Lungs",
+      "Brain",
+      "Stomach",
+      "Heart"
+    ],
+    "answer_index": 3,
+    "explanation": "The heart is a powerful muscle that circulates blood, carrying oxygen and nutrients.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "gravity",
+    "q_text": "What force pulls objects towards the center of the Earth?",
+    "options": [
+      "Friction",
+      "Magnetism",
+      "Gravity",
+      "Buoyancy"
+    ],
+    "answer_index": 2,
+    "explanation": "Gravity is the force that attracts any two objects with mass.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "moon_phases",
+    "q_text": "What causes the different phases of the Moon we see from Earth?",
+    "options": [
+      "Earth's rotation",
+      "Sun's movement",
+      "Moon's orbit around Earth",
+      "Cloud cover"
+    ],
+    "answer_index": 2,
+    "explanation": "The Moon's phases depend on how much of its sunlit side is visible as it orbits Earth.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "food_chains",
+    "q_text": "In a food chain, what do we call an animal that hunts and eats other animals?",
+    "options": [
+      "Producer",
+      "Herbivore",
+      "Omnivore",
+      "Predator"
+    ],
+    "answer_index": 3,
+    "explanation": "A predator is an animal that naturally preys on others.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "water_cycle",
+    "q_text": "What is the process called when water changes from a liquid to a gas and rises into the air?",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Freezing",
+      "Melting"
+    ],
+    "answer_index": 1,
+    "explanation": "Evaporation is when liquid water turns into water vapor and goes into the atmosphere.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "light",
+    "q_text": "What causes a shadow to form?",
+    "options": [
+      "Light bending",
+      "Light reflecting",
+      "Light being blocked",
+      "Light changing color"
+    ],
+    "answer_index": 2,
+    "explanation": "A shadow forms when an opaque object blocks light from reaching a surface.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "plant_needs",
+    "q_text": "Besides sunlight, water, and air, what do plants mostly take from the soil to grow?",
+    "options": [
+      "Sugar",
+      "Minerals",
+      "Protein",
+      "Salt"
+    ],
+    "answer_index": 1,
+    "explanation": "Plants absorb essential minerals and nutrients from the soil through their roots.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "stars",
+    "q_text": "What is the name of the star at the center of our solar system?",
+    "options": [
+      "Moon",
+      "Polaris",
+      "Sirius",
+      "Sun"
+    ],
+    "answer_index": 3,
+    "explanation": "The Sun is a star and the center of our solar system, providing light and heat.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "mixtures",
+    "q_text": "When you stir sugar into warm water, what happens to the sugar?",
+    "options": [
+      "It melts",
+      "It evaporates",
+      "It dissolves",
+      "It solidifies"
+    ],
+    "answer_index": 2,
+    "explanation": "When sugar dissolves, its particles spread out evenly in the water.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "animal_classification",
+    "q_text": "Which group of animals lays eggs and has feathers?",
+    "options": [
+      "Mammals",
+      "Reptiles",
+      "Fish",
+      "Birds"
+    ],
+    "answer_index": 3,
+    "explanation": "Birds are unique among animals for having feathers and most species lay eggs.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "natural_resources",
+    "q_text": "Which of these is a renewable resource, meaning it can be replaced naturally?",
+    "options": [
+      "Coal",
+      "Oil",
+      "Natural gas",
+      "Wind"
+    ],
+    "answer_index": 3,
+    "explanation": "Wind is a renewable resource because it is continuously generated by natural processes.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "sound",
+    "q_text": "How does sound travel?",
+    "options": [
+      "Through light waves",
+      "Through vibrations",
+      "Through heat",
+      "Through electricity"
+    ],
+    "answer_index": 1,
+    "explanation": "Sound travels as vibrations or waves through a medium like air, water, or solids.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "human_senses",
+    "q_text": "Which sense organ helps you to hear sounds?",
+    "options": [
+      "Eyes",
+      "Nose",
+      "Ears",
+      "Tongue"
+    ],
+    "answer_index": 2,
+    "explanation": "Your ears are specially designed organs that detect and process sound waves.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "day_night",
+    "q_text": "What causes day and night on Earth?",
+    "options": [
+      "Earth orbiting the Sun",
+      "Moon orbiting Earth",
+      "Earth spinning on its axis",
+      "Sun setting"
+    ],
+    "answer_index": 2,
+    "explanation": "Day and night occur because the Earth rotates on its axis, turning different parts towards the sun.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "simple_machines",
+    "q_text": "Which of these is an example of a lever?",
+    "options": [
+      "A ramp",
+      "A screw",
+      "A seesaw",
+      "A wheel and axle"
+    ],
+    "answer_index": 2,
+    "explanation": "A seesaw is a classic example of a lever, using a fulcrum to help lift weight.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "life_cycles",
+    "q_text": "What is the first stage in the life cycle of a butterfly?",
+    "options": [
+      "Pupa",
+      "Adult",
+      "Egg",
+      "Larva"
+    ],
+    "answer_index": 2,
+    "explanation": "A butterfly's life begins as an egg, usually laid on a leaf.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "ecosystems",
+    "q_text": "A group of living things and their non-living environment interacting together is called an:",
+    "options": [
+      "Habitat",
+      "Community",
+      "Population",
+      "Ecosystem"
+    ],
+    "answer_index": 3,
+    "explanation": "An ecosystem includes all the living organisms and their physical environment in an area.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "water",
+    "q_text": "What temperature does water freeze into ice at (at sea level)?",
+    "options": [
+      "100 degrees Celsius",
+      "50 degrees Celsius",
+      "0 degrees Celsius",
+      "-10 degrees Celsius"
+    ],
+    "answer_index": 2,
+    "explanation": "Water freezes into ice at 0 degrees Celsius, or 32 degrees Fahrenheit.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "electricity",
+    "q_text": "Which of these is a source of electricity?",
+    "options": [
+      "A rock",
+      "A cloud",
+      "A battery",
+      "A feather"
+    ],
+    "answer_index": 2,
+    "explanation": "A battery stores chemical energy and converts it into electrical energy.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "animal_adaptations",
+    "q_text": "What special feature helps a fish breathe underwater?",
+    "options": [
+      "Lungs",
+      "Scales",
+      "Gills",
+      "Fins"
+    ],
+    "answer_index": 2,
+    "explanation": "Fish use gills to extract oxygen from the water they swim in.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "galaxy",
+    "q_text": "What is the name of our home galaxy?",
+    "options": [
+      "Andromeda",
+      "Pinwheel",
+      "Whirlpool",
+      "Milky Way"
+    ],
+    "answer_index": 3,
+    "explanation": "Our solar system is part of a large spiral galaxy called the Milky Way.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "volcanoes",
+    "q_text": "What comes out of a volcano when it erupts?",
+    "options": [
+      "Water",
+      "Sand",
+      "Lava",
+      "Clouds"
+    ],
+    "answer_index": 2,
+    "explanation": "When a volcano erupts, molten rock called lava flows out from its opening.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "science",
+    "difficulty": "medium",
+    "topic": "magnets",
+    "q_text": "Which of these materials is attracted to a magnet?",
+    "options": [
+      "Wood",
+      "Plastic",
+      "Iron",
+      "Glass"
+    ],
+    "answer_index": 2,
+    "explanation": "Iron is a ferromagnetic material, meaning it is strongly attracted to magnets.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]

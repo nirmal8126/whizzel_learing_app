@@ -1,0 +1,602 @@
+[
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "noun_identification",
+    "q_text": "Which word in the following sentence is a noun? \"The fluffy cat slept soundly on the soft rug.\"",
+    "options": [
+      "fluffy",
+      "slept",
+      "soundly",
+      "cat"
+    ],
+    "answer_index": 3,
+    "explanation": "A noun is a word that names a person, place, thing, or idea.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "verb_identification",
+    "q_text": "Find the verb in this sentence: \"My little brother often sings loudly in the shower.\"",
+    "options": [
+      "little",
+      "often",
+      "sings",
+      "loudly"
+    ],
+    "answer_index": 2,
+    "explanation": "A verb is a word that describes an action or a state of being.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "adjective_identification",
+    "q_text": "Which word describes a noun in the sentence: \"The brave knight rescued the princess from the tall tower.\"",
+    "options": [
+      "knight",
+      "rescued",
+      "tall",
+      "from"
+    ],
+    "answer_index": 2,
+    "explanation": "An adjective is a word that describes or modifies a noun.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "adverb_identification",
+    "q_text": "Which word tells us how the action is done in this sentence? \"The turtle slowly crawled across the garden path.\"",
+    "options": [
+      "turtle",
+      "crawled",
+      "slowly",
+      "path"
+    ],
+    "answer_index": 2,
+    "explanation": "An adverb describes a verb, an adjective, or another adverb, often telling how, when, or where.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "synonym",
+    "q_text": "Which word is a synonym for \"happy\"?",
+    "options": [
+      "sad",
+      "joyful",
+      "angry",
+      "sleepy"
+    ],
+    "answer_index": 1,
+    "explanation": "A synonym is a word that has the same or a similar meaning to another word.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "antonym",
+    "q_text": "What is the antonym of \"cold\"?",
+    "options": [
+      "chilly",
+      "warm",
+      "frozen",
+      "ice"
+    ],
+    "answer_index": 1,
+    "explanation": "An antonym is a word that has the opposite meaning of another word.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "homophones",
+    "q_text": "Choose the correct word to complete the sentence: \"I want ____ cookies, please.\"",
+    "options": [
+      "two",
+      "too",
+      "to",
+      "tooo"
+    ],
+    "answer_index": 0,
+    "explanation": "\"Two\" is the correct spelling for the number.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "punctuation_period",
+    "q_text": "Which punctuation mark should end the following sentence? \"The sun rose early this morning\"",
+    "options": [
+      "?",
+      "!",
+      ".",
+      ";"
+    ],
+    "answer_index": 2,
+    "explanation": "A period is used to end a declarative sentence, which makes a statement.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "punctuation_question",
+    "q_text": "What punctuation mark should be used at the end of this sentence? \"Are you going to the park later\"",
+    "options": [
+      ".",
+      "!",
+      "?",
+      ","
+    ],
+    "answer_index": 2,
+    "explanation": "A question mark is used at the end of an interrogative sentence, which asks a question.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "spelling",
+    "q_text": "Which word is spelled correctly?",
+    "options": [
+      "recieve",
+      "beleive",
+      "achieve",
+      "decieve"
+    ],
+    "answer_index": 2,
+    "explanation": "The correct spelling is \"achieve,\" following the \"i before e, except after c\" rule.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "subject_verb_agreement",
+    "q_text": "Choose the correct verb to complete the sentence: \"The dogs ____ loudly at the mailman.\"",
+    "options": [
+      "bark",
+      "barks",
+      "barking",
+      "barked"
+    ],
+    "answer_index": 0,
+    "explanation": "When the subject \"dogs\" is plural, the verb \"bark\" should also be plural.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "verb_tense_present",
+    "q_text": "Which sentence uses the correct present tense verb?",
+    "options": [
+      "She walked to school yesterday.",
+      "He will eat an apple later.",
+      "They play soccer every Saturday.",
+      "I was reading a book."
+    ],
+    "answer_index": 2,
+    "explanation": "The present tense shows an action happening now or a regular, repeated action.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "collective_noun",
+    "q_text": "What is the collective noun for a group of fish?",
+    "options": [
+      "herd",
+      "pack",
+      "school",
+      "flock"
+    ],
+    "answer_index": 2,
+    "explanation": "A \"school\" is the collective noun used to describe a group of fish.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "preposition_identification",
+    "q_text": "Which word in the sentence is a preposition? \"The book is on the table.\"",
+    "options": [
+      "book",
+      "is",
+      "on",
+      "table"
+    ],
+    "answer_index": 2,
+    "explanation": "A preposition shows the relationship between a noun or pronoun and another word in the sentence.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "conjunction_identification",
+    "q_text": "Which word connects two ideas in the sentence: \"I like apples, but I don't like oranges.\"",
+    "options": [
+      "like",
+      "apples",
+      "but",
+      "oranges"
+    ],
+    "answer_index": 2,
+    "explanation": "A conjunction is a word that joins words, phrases, or clauses together.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "simile",
+    "q_text": "Which of these sentences is an example of a simile?",
+    "options": [
+      "The clouds are cotton balls.",
+      "Her smile was sunshine.",
+      "He eats like a pig.",
+      "The wind whispered secrets."
+    ],
+    "answer_index": 2,
+    "explanation": "A simile compares two different things using the words \"like\" or \"as.\"",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "metaphor",
+    "q_text": "Which sentence contains a metaphor?",
+    "options": [
+      "The baby cried loudly.",
+      "Her voice was music to my ears.",
+      "He ran as fast as a cheetah.",
+      "The leaves danced in the breeze."
+    ],
+    "answer_index": 1,
+    "explanation": "A metaphor directly compares two unlike things by saying one *is* the other.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "alliteration",
+    "q_text": "Which sentence uses alliteration?",
+    "options": [
+      "The cat sat on the mat.",
+      "The dog barked loudly.",
+      "Sally sells seashells by the seashore.",
+      "I went to the store."
+    ],
+    "answer_index": 2,
+    "explanation": "Alliteration is when words that are close together start with the same sound.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "personification",
+    "q_text": "Which sentence gives a non-human thing human qualities?",
+    "options": [
+      "The old car rattled down the road.",
+      "The sun smiled down on us.",
+      "My friend laughed out loud.",
+      "The bird sang a beautiful song."
+    ],
+    "answer_index": 1,
+    "explanation": "Personification gives human actions or qualities to inanimate objects or animals.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "punctuation_apostrophe",
+    "q_text": "Choose the sentence with the correct use of an apostrophe for possession.",
+    "options": [
+      "The boys hats were blue.",
+      "The boy's hat was blue.",
+      "The boys's hat was blue.",
+      "The boys hats' were blue."
+    ],
+    "answer_index": 1,
+    "explanation": "An apostrophe with an 's' shows that something belongs to a singular noun.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "context_clues",
+    "q_text": "In the sentence, \"The tiny mouse scurried quickly into its hole,\" what does \"scurried\" most likely mean?",
+    "options": [
+      "walked slowly",
+      "ran quickly",
+      "sat still",
+      "jumped high"
+    ],
+    "answer_index": 1,
+    "explanation": "The word \"quickly\" and the context of a mouse going into a hole suggest a fast movement.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "prefix",
+    "q_text": "What does the prefix \"un-\" mean in the word \"unhappy\"?",
+    "options": [
+      "very",
+      "not",
+      "before",
+      "again"
+    ],
+    "answer_index": 1,
+    "explanation": "The prefix \"un-\" means \"not\" or \"opposite of.\"",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "suffix",
+    "q_text": "What does adding the suffix \"-ful\" to \"care\" create, meaning \"full of care\"?",
+    "options": [
+      "careing",
+      "careful",
+      "careness",
+      "carefull"
+    ],
+    "answer_index": 1,
+    "explanation": "The suffix \"-ful\" means \"full of\" or \"characterized by.\"",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "homophones_their",
+    "q_text": "Choose the correct word: \"The students left ____ books on the desk.\"",
+    "options": [
+      "there",
+      "they're",
+      "their",
+      "thier"
+    ],
+    "answer_index": 2,
+    "explanation": "\"Their\" shows possession, meaning the books belong to the students.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "common_misspellings",
+    "q_text": "Which word is NOT spelled correctly?",
+    "options": [
+      "beautiful",
+      "friend",
+      "seperate",
+      "tomorrow"
+    ],
+    "answer_index": 2,
+    "explanation": "The correct spelling is \"separate,\" with an \"a\" in the middle.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "sentence_types",
+    "q_text": "Which type of sentence gives a command or instruction?",
+    "options": [
+      "Interrogative",
+      "Exclamatory",
+      "Imperative",
+      "Declarative"
+    ],
+    "answer_index": 2,
+    "explanation": "An imperative sentence gives a command, makes a request, or offers advice.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "comparative_adjective",
+    "q_text": "Complete the sentence with the correct comparative adjective: \"My dog is ____ than your cat.\"",
+    "options": [
+      "big",
+      "bigger",
+      "biggest",
+      "more big"
+    ],
+    "answer_index": 1,
+    "explanation": "\"Bigger\" is the comparative form of \"big,\" used when comparing two things.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "superlative_adjective",
+    "q_text": "Which word completes the sentence correctly: \"Mount Everest is the ____ mountain in the world.\"",
+    "options": [
+      "high",
+      "higher",
+      "highest",
+      "most high"
+    ],
+    "answer_index": 2,
+    "explanation": "\"Highest\" is the superlative form of \"high,\" used when comparing three or more things.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "identifying_pronouns",
+    "q_text": "Which word in the sentence is a pronoun? \"She helped him carry the heavy box.\"",
+    "options": [
+      "helped",
+      "him",
+      "heavy",
+      "box"
+    ],
+    "answer_index": 1,
+    "explanation": "A pronoun is a word that replaces a noun, like \"him\" replacing a boy's name.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  },
+  {
+    "subject": "language",
+    "difficulty": "medium",
+    "topic": "common_idiom",
+    "q_text": "What does the idiom \"break a leg\" mean?",
+    "options": [
+      "to hurt yourself",
+      "to leave quickly",
+      "to wish someone good luck",
+      "to be clumsy"
+    ],
+    "answer_index": 2,
+    "explanation": "\"Break a leg\" is an idiom commonly used to wish someone good luck, especially before a performance.",
+    "source": "ai",
+    "status": "published",
+    "metadata": {
+      "model": "gemini-2.5-flash",
+      "prompt_version": "v1"
+    }
+  }
+]
