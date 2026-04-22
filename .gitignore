@@ -42,3 +42,7 @@ app-example
 /ios
 /android
 .env
+
+# EAS / Play Store credentials
+play-service-account.json
+google-services.json
