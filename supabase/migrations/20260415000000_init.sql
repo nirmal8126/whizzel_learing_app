@@ -1,5 +1,5 @@
 -- ═══════════════════════════════════════════════════════════════════
--- Brain Quest Adventure — initial schema
+-- Whizzel — initial schema
 -- COPPA model: parents own auth accounts, children are subrecords
 -- ═══════════════════════════════════════════════════════════════════
 

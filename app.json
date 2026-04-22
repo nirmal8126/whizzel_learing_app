@@ -10,10 +10,10 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.brainquest.adventure"
+      "bundleIdentifier": "com.whizzel.app"
     },
     "android": {
-      "package": "com.brainquest.adventure",
+      "package": "com.whizzel.app",
       "adaptiveIcon": {
         "backgroundColor": "#FFF7ED",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
