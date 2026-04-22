@@ -1,4 +1,4 @@
-# Brain Quest Adventure
+# Whizzel
 
 E-learning quiz app for kids aged 4-12+. Four subjects (Math, Science, Language, General Knowledge), three difficulty tiers, gamified scoring and badges.
 

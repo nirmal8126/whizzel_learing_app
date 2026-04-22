@@ -105,7 +105,7 @@ export default function MenuScreen() {
         <Section title="ACCOUNT" items={accountSection} delay={300} />
 
         <Animated.Text entering={FadeInUp.delay(400)} style={styles.foot}>
-          Brain Quest Adventure · v1.0{'\n'}🔒 No personal data collected from children
+          Whizzel · v1.0{'\n'}🔒 No personal data collected from children
         </Animated.Text>
       </ScrollView>
 

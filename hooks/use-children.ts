@@ -23,12 +23,16 @@ export const AGE_GROUP_TO_DIFFICULTY: Record<Child['age_group'], Difficulty> = {
 export function useChildren(parentId: string | undefined) {
   const [children, setChildren] = useState<Child[]>([]);
   const [selectedId, setSelectedIdState] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loadedFor, setLoadedFor] = useState<string | undefined>(undefined);
+
+  // Derive loading so it flips to true synchronously when parentId changes,
+  // instead of lagging a render behind while a useEffect runs.
+  const loading = parentId !== undefined && loadedFor !== parentId;
 
   const refresh = useCallback(async () => {
     if (!supabase || !parentId) {
       setChildren([]);
-      setLoading(false);
+      setLoadedFor(parentId);
       return;
     }
     const { data, error } = await supabase
@@ -37,11 +41,10 @@ export function useChildren(parentId: string | undefined) {
       .eq('parent_id', parentId)
       .order('created_at', { ascending: true });
     if (!error && data) setChildren(data as Child[]);
-    setLoading(false);
+    setLoadedFor(parentId);
   }, [parentId]);
 
   useEffect(() => {
-    setLoading(true);
     refresh();
   }, [refresh]);
 

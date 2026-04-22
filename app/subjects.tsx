@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, { FadeIn, FadeInDown } from 'react-native-reanimated';
 import { Text } from '@/components/Text';
@@ -23,12 +23,16 @@ export default function SubjectsScreen() {
   const { selected: selectedChild, children } = useChildren(session?.user.id);
   const { stats } = useProgress(selectedChild?.id ?? null);
 
+  // Optional override from /grades — when present, takes precedence over child's age group.
+  const params = useLocalSearchParams<{ difficulty?: Difficulty }>();
   const childDifficulty = selectedChild ? AGE_GROUP_TO_DIFFICULTY[selectedChild.age_group] : 'easy';
-  const [difficulty, setDifficulty] = useState<Difficulty>(childDifficulty);
+  const initialDifficulty = (params.difficulty as Difficulty) ?? childDifficulty;
+  const [difficulty, setDifficulty] = useState<Difficulty>(initialDifficulty);
 
   useEffect(() => {
-    setDifficulty(childDifficulty);
-  }, [childDifficulty]);
+    if (params.difficulty) setDifficulty(params.difficulty as Difficulty);
+    else setDifficulty(childDifficulty);
+  }, [childDifficulty, params.difficulty]);
 
   const badgeCount = earnedBadges(stats).length;
   const playerName = selectedChild?.display_name ?? 'Explorer';
@@ -88,7 +92,12 @@ export default function SubjectsScreen() {
 
         {/* Difficulty selector — segmented */}
         <Animated.View entering={FadeInDown.delay(150).duration(500)} style={styles.diffCard}>
-          <Text variant="label" style={{ marginBottom: Spacing.sm }}>DIFFICULTY</Text>
+          <View style={styles.diffHeader}>
+            <Text variant="label">DIFFICULTY</Text>
+            <Pressable onPress={() => router.push('/grades')} hitSlop={10}>
+              <Text style={styles.diffByGrade}>🎓 By grade →</Text>
+            </Pressable>
+          </View>
           <View style={styles.segmented}>
             {DIFFICULTIES.map((d) => {
               const selected = difficulty === d;
@@ -212,6 +221,17 @@ const styles = StyleSheet.create({
     padding: Spacing.base,
     marginBottom: Spacing.xl,
     ...Shadows.sm,
+  },
+  diffHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: Spacing.sm,
+  },
+  diffByGrade: {
+    fontFamily: Fonts.semibold,
+    fontSize: 12,
+    color: Colors.primary,
   },
   segmented: {
     flexDirection: 'row',

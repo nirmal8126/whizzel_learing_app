@@ -56,10 +56,10 @@ export default function AuthScreen() {
             <Text style={styles.brandEmoji}>🧠</Text>
           </Animated.View>
           <Animated.Text entering={FadeInUp.delay(180)} style={styles.brand}>
-            Brain Quest
+            Whizzel
           </Animated.Text>
           <Animated.Text entering={FadeInUp.delay(240)} style={styles.brandSub}>
-            Adventure
+            Learn. Play. Grow.
           </Animated.Text>
 
           <Animated.View entering={FadeInUp.delay(320)} style={[styles.card, Shadows.md]}>

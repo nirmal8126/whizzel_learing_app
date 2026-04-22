@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Brain Quest Adventure",
-    "slug": "brain-quest-adventure",
+    "name": "Whizzel",
+    "slug": "whizzel",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "brainquest",
+    "scheme": "whizzel",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "ios": {
