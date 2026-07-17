@@ -22,9 +22,9 @@ export default function QuizScreen() {
   const subj = SUBJECTS[subject];
 
   const { state, answer } = useQuiz(subject, difficulty);
-  const { recordQuiz } = useProgress();
   const { session } = useAuth();
   const { selected: selectedChild } = useChildren(session?.user.id);
+  const { recordQuiz } = useProgress(selectedChild?.id ?? null);
   const [burstSeed, setBurstSeed] = useState(0);
   const submittedRef = useRef(false);
 
